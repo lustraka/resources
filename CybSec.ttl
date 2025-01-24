@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix nis: <http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#> .
+@prefix lubs: <http://lubstr.cz/datastore/> .
+
+nis:include a owl:ObjectProperty .
+lubs:includeBusinessContinuityDone rdfs:subPropertyOf nis:include ;
+    rdfs:domain nis:Entity ;
+    rdfs:range nis:BusinessContinuity ;
+    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant ;
+    lubs:legalSource lubs:ZoKBplacehoder.
+lubs:includeDisasterRecoveryDone rdfs:subPropertyOf nis:include ;
+    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+lubs:includeBackupManagementDone rdfs:subPropertyOf nis:include ;
+    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+lubs:includeCrisisManagementDone rdfs:subPropertyOf nis:include ;
+    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+
+nis:DisasterRecovery a owl:Class .
+nis:BusinessContinuity a owl:Class .
+nis:BackupManagement a owl:Class .
+nis:CrisisManagement a owl:Class .
+nis:Entity a owl:Class .
+
+lubs:legalSource a owl:ObjectProperty .
+lubs:ZoKBplacehoder a owl:Class .
+
+lubs:EntityCompliant a sh:NodeShape ;
+    sh:targetClass nis:Entity ;
+    sh:property lubs:includeBusinessContinuity ;
+    sh:property lubs:includeDisasterRecovery ;
+    sh:property lubs:includeBackupManagement ;
+    sh:property lubs:includeCrisisManagement .
+
+lubs:includeBusinessContinuity sh:path lubs:includeBusinessContinuityDone ;
+    sh:class nis:BusinessContinuity ;
+    sh:minCount 1 .
+lubs:includeDisasterRecovery sh:path lubs:includeDisasterRecoveryDone ;
+    sh:class nis:DisasterRecovery ;
+    sh:minCount 1 .
+lubs:includeBackupManagement sh:path lubs:includeBackupManagementDone ;
+    sh:class nis:BackupManagement ;
+    sh:minCount 1 .
+lubs:includeCrisisManagement sh:path lubs:includeCrisisManagementDone ;
+    sh:class nis:CrisisManagement ;
+    sh:minCount 1 .
+
+lubs:entity a nis:Entity .
+#lubs:entity lubs:includeBusinessContinuityDone lubs:BusinessContinuity1 .
+#lubs:BusinessContinuity1 a nis:BusinessContinuity .
+lubs:entity lubs:includeBusinessContinuityDone lubs:DisasterRecovery1 .
+lubs:DisasterRecovery1 a nis:DisasterRecovery .
+lubs:entity lubs:includeBackupManagementDone lubs:BackupManagement1  .
+lubs:BackupManagement1 a nis:BackupManagement .
+lubs:entity lubs:includeCrisisManagementDone lubs:CrisisManagement1 .
+lubs:CrisisManagement1 a nis:CrisisManagement .
