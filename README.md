@@ -1,2 +1,3 @@
-# resources
-Semantic Web and Linked Data Resources FAIR compliant
+# Semantic Web Resources
+
+FAIR-Compliant Semantic Web and Linked Data Resources
