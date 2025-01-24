@@ -2,21 +2,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix nis: <http://www.semanticweb.org/gianpietro/ontologies/2022/6/untitled-ontology-39#> .
-@prefix lubs: <http://lubstr.cz/datastore/> .
+@prefix cybs: <https://lustraka.github.io/resources/CybSec/> .
+@prefix : <https://example.org/> .
 
 nis:include a owl:ObjectProperty .
-lubs:includeBusinessContinuityDone rdfs:subPropertyOf nis:include ;
+cybs:includeBusinessContinuityDone rdfs:subPropertyOf nis:include ;
     rdfs:domain nis:Entity ;
     rdfs:range nis:BusinessContinuity ;
-    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant ;
-    lubs:legalSource lubs:ZoKBplacehoder.
-lubs:includeDisasterRecoveryDone rdfs:subPropertyOf nis:include ;
-    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
-lubs:includeBackupManagementDone rdfs:subPropertyOf nis:include ;
-    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
-lubs:includeCrisisManagementDone rdfs:subPropertyOf nis:include ;
-    lubs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+    cybs:legalSource nis:Art21Par2-c-Entitity-Compliant ;
+    cybs:legalSource :ZoKBplacehoder.
+cybs:includeDisasterRecoveryDone rdfs:subPropertyOf nis:include ;
+    cybs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+cybs:includeBackupManagementDone rdfs:subPropertyOf nis:include ;
+    cybs:legalSource nis:Art21Par2-c-Entitity-Compliant .
+cybs:includeCrisisManagementDone rdfs:subPropertyOf nis:include ;
+    cybs:legalSource nis:Art21Par2-c-Entitity-Compliant .
 
 nis:DisasterRecovery a owl:Class .
 nis:BusinessContinuity a owl:Class .
@@ -24,35 +26,35 @@ nis:BackupManagement a owl:Class .
 nis:CrisisManagement a owl:Class .
 nis:Entity a owl:Class .
 
-lubs:legalSource a owl:ObjectProperty .
-lubs:ZoKBplacehoder a owl:Class .
+cybs:legalSource a owl:ObjectProperty .
+:ZoKBplacehoder a owl:Class .
 
-lubs:EntityCompliant a sh:NodeShape ;
+cybs:EntityCompliant a sh:NodeShape ;
     sh:targetClass nis:Entity ;
-    sh:property lubs:includeBusinessContinuity ;
-    sh:property lubs:includeDisasterRecovery ;
-    sh:property lubs:includeBackupManagement ;
-    sh:property lubs:includeCrisisManagement .
+    sh:property cybs:includeBusinessContinuity ;
+    sh:property cybs:includeDisasterRecovery ;
+    sh:property cybs:includeBackupManagement ;
+    sh:property cybs:includeCrisisManagement .
 
-lubs:includeBusinessContinuity sh:path lubs:includeBusinessContinuityDone ;
+cybs:includeBusinessContinuity sh:path cybs:includeBusinessContinuityDone ;
     sh:class nis:BusinessContinuity ;
     sh:minCount 1 .
-lubs:includeDisasterRecovery sh:path lubs:includeDisasterRecoveryDone ;
+cybs:includeDisasterRecovery sh:path cybs:includeDisasterRecoveryDone ;
     sh:class nis:DisasterRecovery ;
     sh:minCount 1 .
-lubs:includeBackupManagement sh:path lubs:includeBackupManagementDone ;
+cybs:includeBackupManagement sh:path cybs:includeBackupManagementDone ;
     sh:class nis:BackupManagement ;
     sh:minCount 1 .
-lubs:includeCrisisManagement sh:path lubs:includeCrisisManagementDone ;
+cybs:includeCrisisManagement sh:path cybs:includeCrisisManagementDone ;
     sh:class nis:CrisisManagement ;
     sh:minCount 1 .
 
-lubs:entity a nis:Entity .
-#lubs:entity lubs:includeBusinessContinuityDone lubs:BusinessContinuity1 .
-#lubs:BusinessContinuity1 a nis:BusinessContinuity .
-lubs:entity lubs:includeBusinessContinuityDone lubs:DisasterRecovery1 .
-lubs:DisasterRecovery1 a nis:DisasterRecovery .
-lubs:entity lubs:includeBackupManagementDone lubs:BackupManagement1  .
-lubs:BackupManagement1 a nis:BackupManagement .
-lubs:entity lubs:includeCrisisManagementDone lubs:CrisisManagement1 .
-lubs:CrisisManagement1 a nis:CrisisManagement .
+:entity a nis:Entity .
+#:entity cybs:includeBusinessContinuityDone :BusinessContinuity1 .
+#:BusinessContinuity1 a nis:BusinessContinuity .
+:entity cybs:includeBusinessContinuityDone :DisasterRecovery1 .
+:DisasterRecovery1 a nis:DisasterRecovery .
+:entity cybs:includeBackupManagementDone :BackupManagement1  .
+:BackupManagement1 a nis:BackupManagement .
+:entity cybs:includeCrisisManagementDone :CrisisManagement1 .
+:CrisisManagement1 a nis:CrisisManagement .
