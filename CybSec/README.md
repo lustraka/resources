@@ -6,7 +6,7 @@
 
 ###  A Foundational Pattern for Iterative Design (2025-01-24 Fri)
 
-**Knowledge Graph**> [CybSecIter1.ttl](CybSecIter1.ttl)
+**Knowledge Graph**: [CybSecIter1.ttl](CybSecIter1.ttl)
 
 #### Introduction
 The "Cybersecurity Compliance Cognitive Twin" (CCCT) leverages a knowledge graph architecture to address the complexities of adhering to cybersecurity regulations, particularly the NIS 2 Directive. This twin serves as an intelligent, modular framework for managing compliance requirements, integrating domain knowledge, validation mechanisms, and automated reasoning.
@@ -16,7 +16,7 @@ The "Cybersecurity Compliance Cognitive Twin" (CCCT) leverages a knowledge graph
 1. **Vocabulary Reuse from NIS2Onto**:
    - The knowledge graph utilizes the NIS2Onto ontology, ensuring semantic consistency with the NIS 2 Directive.
    - Compliance measures are specialized properties of NIS2Onto, directly referencing articles of the NIS 2 Directive.
-   - Additional references to national legislation and contractual obligations are seamlessly incorporated, enriching the graph's contextual adaptability.
+   - Additional references to national legislation and contractual obligations can be seamlessly incorporated, enriching the graph's contextual adaptability.
 
 2. **Compliance Measures as Specialized Properties**:
    - Each compliance measure is modeled as a specialized property of NIS2Onto, carrying explicit references to:
