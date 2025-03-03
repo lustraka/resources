@@ -1,8 +1,7 @@
 # Examine your guess
 
-key | value
-- | -
-URI | https://lustraka.github.io/resources/pol14/ExamineYourGuess
-Description | A step in verifying the plausibility of a conjectured solution.
-Created | 2025-03-03
+URI|https://lustraka.github.io/resources/pol14/ExamineYourGuess
+-|-
+Description|A step in verifying the plausibility of a conjectured solution.
+Created|2025-03-03
 

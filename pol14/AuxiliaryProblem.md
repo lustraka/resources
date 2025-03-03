@@ -1,8 +1,7 @@
 # Auxiliary problem
 
-key | value
-- | -
-URI | https://lustraka.github.io/resources/pol14/AuxiliaryProblem
-Description | A secondary problem introduced to help solve the original problem.
-Created | 2025-03-03
+URI|https://lustraka.github.io/resources/pol14/AuxiliaryProblem
+-|-
+Description|A secondary problem introduced to help solve the original problem.
+Created|2025-03-03
 
