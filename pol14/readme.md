@@ -1,8 +1,41 @@
-# Short Dictionary of Heuristics
+# Short Dictionary of Heuristic
 
 > **Inspired by:** George Polya (20141026) **How to Solve It: A New Aspect of Mathematical Method** (Princeton Science Library). [Kindle Edition](https://www.amazon.com/How-Solve-Aspect-Mathematical-Method-ebook/dp/B0073X0IOA/).
 
-## Table of Contents
+[**Modern heuristic**](ModernHeuristic.md) seeks to understand problem-solving by analyzing *mental operations* that aid the process. It integrates logical and psychological insights, drawing from historical thinkers like [Pappus](Pappus.md), [Descartes](Descartes.md), [Leibniz](Leibnitz.md), and [Bolzano](Bolzano.md) while emphasizing direct problem-solving experience. A comprehensive study should identify universal strategies across diverse problems, focusing on general principles rather than domain-specific details. Ultimately, its practical aim is to enhance the teaching of mathematics and **improve problem-solving efficiency**.
+
+Representing Pólya’s heuristics in  **Turtle format** ([pol14.ttl](pol14.ttl)) provides a **structured, interoperable, and queryable way** to present these heuristics. This representation is useful for **knowledge graph-driven problem-solving**, AI integration, and education.
+
+![](PolyaG-2014.png)
+
+## How To Solve It Heuristic
+### Understanding the Problem 
+> Identify what is given, what is unknown, and the conditions.
+
+[What is the unknown](WhatIsTheUnknown.md)? What are the data? What is the [condition](Condition.md)? [Is it possible to satisfy the condition](IsItPossibleToSatisfyTheCondition.md)? Is the condition sufficient to determine the unknown? Or is it insufficient? Or [redundant](Redundant.md)? Or [contradictory](Contradictory.md)? [Draw a figure.](DrawAFigure.md) Introduce suitable [notation](Notation.md). [Separate the various parts of the condition](SeparateTheVariousPartsOfTheCondition.md). Can you write them down?
+
+
+### Devising a Plan 
+> Think of possible strategies (e.g., working backward, drawing diagrams, using analogies).
+
+[Have you seen it before](HaveYouSeenItBefore.md)? Or have you seen the same problem in a slightly different form? [Do you know a related problem](DoYouKnowARelatedProblem.md)? Do you know a theorem that could be useful? [Look at the unknown](LookAtTheUnknown.md)! And try to think of a familiar problem having the same or a similar unknown. [Here is a problem related to yours and solved before](HereIsAProblemRelatedToYoursAndSolvedBefore.md). Could you use it? Could you use its result? Could you use its method? Should you introduce some [auxiliary element](AuxiliaryElements.md) in order to make its use possible? [Could you restate the problem](CouldYouRestateTheProblem.md)? Could you restate it still differently? Go back to [definitions](Definition.md). 
+
+[If you cannot solve the proposed problem](IfYouCannotSolveTheProposedProblem.md) try to solve first some related problem. Could you imagine a more accessible related problem? A more [general problem](Generalization.md)? A more [special problem](Specialization.md)? An [analogous problem](Analogy.md)? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? [Could you derive something useful from the data](CouldYouDeriveSomethingUsefulFromTheData.md)? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other? [Did you use all the data](DidYouUseAllTheData.md)? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?
+
+
+### Carrying Out the Plan 
+> Execute the chosen method carefully.
+
+[Carrying out](CarryingOut.md) your plan of the solution, check each step. Can you see clearly that the step is correct? Can you prove that it is correct?
+
+
+### Looking Back 
+> Reflect on the solution, check results, and consider alternative approaches.
+
+[Can you check the result](CanYouCheckTheResult.md)? Can you check the argument? [Can you derive the result differently](CanYouDeriveTheResultDifferently.md)? Can you see it at a glance? [Can you use the result](CanYouUseTheResult.md), or the method, for some other problem?
+
+
+## Heuristic A to Z
 - [Analogy](Analogy.md) : A method of reasoning by comparing the given problem to a similar known problem.
 - [Auxiliary elements](AuxiliaryElements.md) : Additional constructions that simplify or clarify the problem.
 - [Auxiliary problem](AuxiliaryProblem.md) : A secondary problem introduced to help solve the original problem.
@@ -70,3 +103,5 @@
 - [Why proofs?](WhyProofs.md) : The importance of justification and rigor in mathematics.
 - [Wisdom of proverbs](WisdomOfProverbs.md) : The application of general wisdom to problem-solving.
 - [Working backwards](WorkingBackwards.md) : Starting from the desired result to reconstruct the solution.
+
+† Contains only cross-references.
