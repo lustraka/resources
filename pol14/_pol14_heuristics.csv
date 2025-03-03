@@ -1,0 +1,68 @@
+IRI,name,description
+Analogy,Analogy,A method of reasoning by comparing the given problem to a similar known problem.
+AuxiliaryElements,Auxiliary elements,Additional constructions that simplify or clarify the problem.
+AuxiliaryProblem,Auxiliary problem,A secondary problem introduced to help solve the original problem.
+Bolzano,Bolzano,A reference to the contributions of Bernard Bolzano to problem-solving and mathematical logic.
+BrightIdea,Bright idea,An unexpected insight or intuition that advances problem-solving.
+CanYouCheckTheResult,Can you check the result?,A call to verify the solution’s correctness by reconsidering the process.
+CanYouDeriveTheResultDifferently,Can you derive the result differently?,A suggestion to confirm a result by finding an alternative approach.
+CanYouUseTheResult,Can you use the result?,Encouragement to apply a derived result to a new or related problem.
+CarryingOut,Carrying out,The stage of executing the problem-solving plan systematically.
+Condition,Condition,The set of restrictions and assumptions defining the problem.
+Contradictory,Contradictory†,No description available.
+Corollary,Corollary,A direct consequence or extension of a previously established result.
+CouldYouDeriveSomethingUsefulFromTheData,Could you derive something useful from the data?,Encourages extracting meaningful insights from given information.
+CouldYouRestateTheProblem,Could you restate the problem?†,No description available.
+DecomposingAndRecombining,Decomposing and recombining,Breaking a problem into smaller parts and reassembling them for a solution.
+Definition,Definition,A precise statement of the meaning of terms used in problem-solving.
+Descartes,Descartes,A nod to René Descartes and his structured approach to mathematical reasoning.
+DeterminationHopeSuccess,"Determination, hope, success",The mindset necessary for effective problem-solving.
+Diagnosis,Diagnosis,Examining a problem deeply to identify its key difficulties.
+DidYouUseAllTheData,Did you use all the data?,A reminder to consider all given information in problem-solving.
+DoYouKnowARelatedProblem,Do you know a related problem?,Encourages recalling similar problems that may offer a solution path.
+DrawAFigure,Draw a figure†,No description available.
+ExamineYourGuess,Examine your guess,A step in verifying the plausibility of a conjectured solution.
+Figures,Figures,The role of diagrams and visual representations in mathematical thinking.
+Generalization,Generalization,Extending a specific result to a broader context.
+HaveYouSeenItBefore,Have you seen it before?,Encourages pattern recognition and recalling past problem-solving experiences.
+HereIsAProblemRelatedToYoursAndSolvedBefore,Here is a problem related to yours and solved before,A reminder to draw insights from similar solved problems.
+Heuristic,Heuristic,The study and use of strategies that aid in problem-solving.
+HeuristicReasoning,Heuristic reasoning,A method of thinking that relies on intuition and experience rather than strict logic.
+IfYouCannotSolveTheProposedProblem,If you cannot solve the proposed problem,Encourages modifying the problem or approaching it differently.
+InductionAndMathematicalInduction,Induction and mathematical induction,Techniques for proving statements by generalizing from specific cases.
+InventorsParadox,Inventor’s paradox,The idea that aiming for a more general problem may make it easier to solve.
+IsItPossibleToSatisfyTheCondition,Is it possible to satisfy the condition?,A key question in determining problem feasibility.
+Leibnitz,Leibnitz,A reference to the contributions of Gottfried Wilhelm Leibniz in problem-solving.
+Lemma,Lemma,An auxiliary proposition used to prove a larger theorem.
+LookAtTheUnknown,Look at the unknown,A focus on the goal to determine an effective solution path.
+ModernHeuristic,Modern heuristic,A contemporary approach to problem-solving strategies.
+Notation,Notation,The importance of symbolic representation in mathematical clarity.
+Pappus,Pappus,A reference to Pappus of Alexandria and his contributions to problem-solving.
+PedantryAndMastery,Pedantry and mastery,The balance between rigorous precision and intuitive understanding.
+PracticalProblems,Practical problems,Problems grounded in real-world applications.
+ProblemsToFindProblemsToProve,"Problems to find, problems to prove",The distinction between discovery problems and proof-oriented problems.
+ProgressAndAchievement,Progress and achievement,The milestones in the problem-solving process.
+Puzzles,Puzzles,Recreational problems that build problem-solving skills.
+ReductioAdAbsurdumAndIndirectProof,Reductio ad absurdum and indirect proof,A technique of proving a statement by assuming the opposite and reaching a contradiction.
+Redundant,Redundant†,No description available.
+RoutineProblem,Routine problem,A problem that follows a well-established method or algorithm.
+RulesOfDiscovery,Rules of discovery,Guidelines for exploring new solutions.
+RulesOfStyle,Rules of style,Principles for clear and elegant mathematical writing.
+RulesOfTeaching,Rules of teaching,Principles for effectively conveying mathematical ideas.
+SeparateTheVariousPartsOfTheCondition,Separate the various parts of the condition,A strategy for analyzing complex problems by isolating conditions.
+SettingUpEquations,Setting up equations,Translating a problem into algebraic or mathematical form.
+SignsOfProgress,Signs of progress,Indicators that a problem-solving approach is moving forward.
+Specialization,Specialization,Focusing on a particular case to understand a general problem.
+SubconsciousWork,Subconscious work,The role of unconscious processing in finding solutions.
+Symmetry,Symmetry,The use of balanced structures to simplify problems.
+TermsOldAndNew,"Terms, old and new",The evolution of mathematical language and definitions.
+TestByDimension,Test by dimension,Checking equations by verifying their dimensional consistency.
+TheFutureMathematician,The future mathematician,Encouragement for developing problem-solving skills.
+TheIntelligentProblemSolver,The intelligent problem-solver,A model of an effective and adaptable thinker.
+TheIntelligentReader,The intelligent reader,A problem-solver who actively engages with mathematical texts.
+TheTraditionalMathematicsProfessor,The traditional mathematics professor,A reflection on conventional teaching approaches.
+VariationOfTheProblem,Variation of the problem,Modifying a problem to explore related ideas.
+WhatIsTheUnknown,What is the unknown?,A foundational question in problem-solving.
+WhyProofs,Why proofs?,The importance of justification and rigor in mathematics.
+WisdomOfProverbs,Wisdom of proverbs,The application of general wisdom to problem-solving.
+WorkingBackwards,Working backwards,Starting from the desired result to reconstruct the solution.

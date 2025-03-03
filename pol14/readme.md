@@ -1,0 +1,72 @@
+# Short Dictionary of Heuristics
+
+> **Inspired by:** George Polya (20141026) **How to Solve It: A New Aspect of Mathematical Method** (Princeton Science Library). [Kindle Edition](https://www.amazon.com/How-Solve-Aspect-Mathematical-Method-ebook/dp/B0073X0IOA/).
+
+## Table of Contents
+- [Analogy](Analogy.md) : A method of reasoning by comparing the given problem to a similar known problem.
+- [Auxiliary elements](AuxiliaryElements.md) : Additional constructions that simplify or clarify the problem.
+- [Auxiliary problem](AuxiliaryProblem.md) : A secondary problem introduced to help solve the original problem.
+- [Bolzano](Bolzano.md) : A reference to the contributions of Bernard Bolzano to problem-solving and mathematical logic.
+- [Bright idea](BrightIdea.md) : An unexpected insight or intuition that advances problem-solving.
+- [Can you check the result?](CanYouCheckTheResult.md) : A call to verify the solution’s correctness by reconsidering the process.
+- [Can you derive the result differently?](CanYouDeriveTheResultDifferently.md) : A suggestion to confirm a result by finding an alternative approach.
+- [Can you use the result?](CanYouUseTheResult.md) : Encouragement to apply a derived result to a new or related problem.
+- [Carrying out](CarryingOut.md) : The stage of executing the problem-solving plan systematically.
+- [Condition](Condition.md) : The set of restrictions and assumptions defining the problem.
+- [Contradictory†](Contradictory.md) : No description available.
+- [Corollary](Corollary.md) : A direct consequence or extension of a previously established result.
+- [Could you derive something useful from the data?](CouldYouDeriveSomethingUsefulFromTheData.md) : Encourages extracting meaningful insights from given information.
+- [Could you restate the problem?†](CouldYouRestateTheProblem.md) : No description available.
+- [Decomposing and recombining](DecomposingAndRecombining.md) : Breaking a problem into smaller parts and reassembling them for a solution.
+- [Definition](Definition.md) : A precise statement of the meaning of terms used in problem-solving.
+- [Descartes](Descartes.md) : A nod to René Descartes and his structured approach to mathematical reasoning.
+- [Determination, hope, success](DeterminationHopeSuccess.md) : The mindset necessary for effective problem-solving.
+- [Diagnosis](Diagnosis.md) : Examining a problem deeply to identify its key difficulties.
+- [Did you use all the data?](DidYouUseAllTheData.md) : A reminder to consider all given information in problem-solving.
+- [Do you know a related problem?](DoYouKnowARelatedProblem.md) : Encourages recalling similar problems that may offer a solution path.
+- [Draw a figure†](DrawAFigure.md) : No description available.
+- [Examine your guess](ExamineYourGuess.md) : A step in verifying the plausibility of a conjectured solution.
+- [Figures](Figures.md) : The role of diagrams and visual representations in mathematical thinking.
+- [Generalization](Generalization.md) : Extending a specific result to a broader context.
+- [Have you seen it before?](HaveYouSeenItBefore.md) : Encourages pattern recognition and recalling past problem-solving experiences.
+- [Here is a problem related to yours and solved before](HereIsAProblemRelatedToYoursAndSolvedBefore.md) : A reminder to draw insights from similar solved problems.
+- [Heuristic](Heuristic.md) : The study and use of strategies that aid in problem-solving.
+- [Heuristic reasoning](HeuristicReasoning.md) : A method of thinking that relies on intuition and experience rather than strict logic.
+- [If you cannot solve the proposed problem](IfYouCannotSolveTheProposedProblem.md) : Encourages modifying the problem or approaching it differently.
+- [Induction and mathematical induction](InductionAndMathematicalInduction.md) : Techniques for proving statements by generalizing from specific cases.
+- [Inventor’s paradox](InventorsParadox.md) : The idea that aiming for a more general problem may make it easier to solve.
+- [Is it possible to satisfy the condition?](IsItPossibleToSatisfyTheCondition.md) : A key question in determining problem feasibility.
+- [Leibnitz](Leibnitz.md) : A reference to the contributions of Gottfried Wilhelm Leibniz in problem-solving.
+- [Lemma](Lemma.md) : An auxiliary proposition used to prove a larger theorem.
+- [Look at the unknown](LookAtTheUnknown.md) : A focus on the goal to determine an effective solution path.
+- [Modern heuristic](ModernHeuristic.md) : A contemporary approach to problem-solving strategies.
+- [Notation](Notation.md) : The importance of symbolic representation in mathematical clarity.
+- [Pappus](Pappus.md) : A reference to Pappus of Alexandria and his contributions to problem-solving.
+- [Pedantry and mastery](PedantryAndMastery.md) : The balance between rigorous precision and intuitive understanding.
+- [Practical problems](PracticalProblems.md) : Problems grounded in real-world applications.
+- [Problems to find, problems to prove](ProblemsToFindProblemsToProve.md) : The distinction between discovery problems and proof-oriented problems.
+- [Progress and achievement](ProgressAndAchievement.md) : The milestones in the problem-solving process.
+- [Puzzles](Puzzles.md) : Recreational problems that build problem-solving skills.
+- [Reductio ad absurdum and indirect proof](ReductioAdAbsurdumAndIndirectProof.md) : A technique of proving a statement by assuming the opposite and reaching a contradiction.
+- [Redundant†](Redundant.md) : No description available.
+- [Routine problem](RoutineProblem.md) : A problem that follows a well-established method or algorithm.
+- [Rules of discovery](RulesOfDiscovery.md) : Guidelines for exploring new solutions.
+- [Rules of style](RulesOfStyle.md) : Principles for clear and elegant mathematical writing.
+- [Rules of teaching](RulesOfTeaching.md) : Principles for effectively conveying mathematical ideas.
+- [Separate the various parts of the condition](SeparateTheVariousPartsOfTheCondition.md) : A strategy for analyzing complex problems by isolating conditions.
+- [Setting up equations](SettingUpEquations.md) : Translating a problem into algebraic or mathematical form.
+- [Signs of progress](SignsOfProgress.md) : Indicators that a problem-solving approach is moving forward.
+- [Specialization](Specialization.md) : Focusing on a particular case to understand a general problem.
+- [Subconscious work](SubconsciousWork.md) : The role of unconscious processing in finding solutions.
+- [Symmetry](Symmetry.md) : The use of balanced structures to simplify problems.
+- [Terms, old and new](TermsOldAndNew.md) : The evolution of mathematical language and definitions.
+- [Test by dimension](TestByDimension.md) : Checking equations by verifying their dimensional consistency.
+- [The future mathematician](TheFutureMathematician.md) : Encouragement for developing problem-solving skills.
+- [The intelligent problem-solver](TheIntelligentProblemSolver.md) : A model of an effective and adaptable thinker.
+- [The intelligent reader](TheIntelligentReader.md) : A problem-solver who actively engages with mathematical texts.
+- [The traditional mathematics professor](TheTraditionalMathematicsProfessor.md) : A reflection on conventional teaching approaches.
+- [Variation of the problem](VariationOfTheProblem.md) : Modifying a problem to explore related ideas.
+- [What is the unknown?](WhatIsTheUnknown.md) : A foundational question in problem-solving.
+- [Why proofs?](WhyProofs.md) : The importance of justification and rigor in mathematics.
+- [Wisdom of proverbs](WisdomOfProverbs.md) : The application of general wisdom to problem-solving.
+- [Working backwards](WorkingBackwards.md) : Starting from the desired result to reconstruct the solution.

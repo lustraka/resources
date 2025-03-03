@@ -1,0 +1,272 @@
+@prefix pol14: <https://lustraka.github.io/resources/pol14/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+pol14:Analogy a skos:Concept ;
+    schema:name "Analogy" ;
+    schema:description "A method of reasoning by comparing the given problem to a similar known problem." .
+
+pol14:AuxiliaryElements a skos:Concept ;
+    schema:name "Auxiliary elements" ;
+    schema:description "Additional constructions that simplify or clarify the problem." .
+
+pol14:AuxiliaryProblem a skos:Concept ;
+    schema:name "Auxiliary problem" ;
+    schema:description "A secondary problem introduced to help solve the original problem." .
+
+pol14:Bolzano a skos:Concept ;
+    schema:name "Bolzano" ;
+    schema:description "A reference to the contributions of Bernard Bolzano to problem-solving and mathematical logic." .
+
+pol14:BrightIdea a skos:Concept ;
+    schema:name "Bright idea" ;
+    schema:description "An unexpected insight or intuition that advances problem-solving." .
+
+pol14:CanYouCheckTheResult a skos:Concept ;
+    schema:name "Can you check the result?" ;
+    schema:description "A call to verify the solution’s correctness by reconsidering the process." .
+
+pol14:CanYouDeriveTheResultDifferently a skos:Concept ;
+    schema:name "Can you derive the result differently?" ;
+    schema:description "A suggestion to confirm a result by finding an alternative approach." .
+
+pol14:CanYouUseTheResult a skos:Concept ;
+    schema:name "Can you use the result?" ;
+    schema:description "Encouragement to apply a derived result to a new or related problem." .
+
+pol14:CarryingOut a skos:Concept ;
+    schema:name "Carrying out" ;
+    schema:description "The stage of executing the problem-solving plan systematically." .
+
+pol14:Condition a skos:Concept ;
+    schema:name "Condition" ;
+    schema:description "The set of restrictions and assumptions defining the problem." .
+
+pol14:Contradictory a skos:Concept ;
+    schema:name "Contradictory†" ;
+    schema:description "No description available." .
+
+pol14:Corollary a skos:Concept ;
+    schema:name "Corollary" ;
+    schema:description "A direct consequence or extension of a previously established result." .
+
+pol14:CouldYouDeriveSomethingUsefulFromTheData a skos:Concept ;
+    schema:name "Could you derive something useful from the data?" ;
+    schema:description "Encourages extracting meaningful insights from given information." .
+
+pol14:CouldYouRestateTheProblem a skos:Concept ;
+    schema:name "Could you restate the problem?†" ;
+    schema:description "No description available." .
+
+pol14:DecomposingAndRecombining a skos:Concept ;
+    schema:name "Decomposing and recombining" ;
+    schema:description "Breaking a problem into smaller parts and reassembling them for a solution." .
+
+pol14:Definition a skos:Concept ;
+    schema:name "Definition" ;
+    schema:description "A precise statement of the meaning of terms used in problem-solving." .
+
+pol14:Descartes a skos:Concept ;
+    schema:name "Descartes" ;
+    schema:description "A nod to René Descartes and his structured approach to mathematical reasoning." .
+
+pol14:DeterminationHopeSuccess a skos:Concept ;
+    schema:name "Determination, hope, success" ;
+    schema:description "The mindset necessary for effective problem-solving." .
+
+pol14:Diagnosis a skos:Concept ;
+    schema:name "Diagnosis" ;
+    schema:description "Examining a problem deeply to identify its key difficulties." .
+
+pol14:DidYouUseAllTheData a skos:Concept ;
+    schema:name "Did you use all the data?" ;
+    schema:description "A reminder to consider all given information in problem-solving." .
+
+pol14:DoYouKnowARelatedProblem a skos:Concept ;
+    schema:name "Do you know a related problem?" ;
+    schema:description "Encourages recalling similar problems that may offer a solution path." .
+
+pol14:DrawAFigure a skos:Concept ;
+    schema:name "Draw a figure†" ;
+    schema:description "No description available." .
+
+pol14:ExamineYourGuess a skos:Concept ;
+    schema:name "Examine your guess" ;
+    schema:description "A step in verifying the plausibility of a conjectured solution." .
+
+pol14:Figures a skos:Concept ;
+    schema:name "Figures" ;
+    schema:description "The role of diagrams and visual representations in mathematical thinking." .
+
+pol14:Generalization a skos:Concept ;
+    schema:name "Generalization" ;
+    schema:description "Extending a specific result to a broader context." .
+
+pol14:HaveYouSeenItBefore a skos:Concept ;
+    schema:name "Have you seen it before?" ;
+    schema:description "Encourages pattern recognition and recalling past problem-solving experiences." .
+
+pol14:HereIsAProblemRelatedToYoursAndSolvedBefore a skos:Concept ;
+    schema:name "Here is a problem related to yours and solved before" ;
+    schema:description "A reminder to draw insights from similar solved problems." .
+
+pol14:Heuristic a skos:Concept ;
+    schema:name "Heuristic" ;
+    schema:description "The study and use of strategies that aid in problem-solving." .
+
+pol14:HeuristicReasoning a skos:Concept ;
+    schema:name "Heuristic reasoning" ;
+    schema:description "A method of thinking that relies on intuition and experience rather than strict logic." .
+
+pol14:IfYouCannotSolveTheProposedProblem a skos:Concept ;
+    schema:name "If you cannot solve the proposed problem" ;
+    schema:description "Encourages modifying the problem or approaching it differently." .
+
+pol14:InductionAndMathematicalInduction a skos:Concept ;
+    schema:name "Induction and mathematical induction" ;
+    schema:description "Techniques for proving statements by generalizing from specific cases." .
+
+pol14:InventorsParadox a skos:Concept ;
+    schema:name "Inventor’s paradox" ;
+    schema:description "The idea that aiming for a more general problem may make it easier to solve." .
+
+pol14:IsItPossibleToSatisfyTheCondition a skos:Concept ;
+    schema:name "Is it possible to satisfy the condition?" ;
+    schema:description "A key question in determining problem feasibility." .
+
+pol14:Leibnitz a skos:Concept ;
+    schema:name "Leibnitz" ;
+    schema:description "A reference to the contributions of Gottfried Wilhelm Leibniz in problem-solving." .
+
+pol14:Lemma a skos:Concept ;
+    schema:name "Lemma" ;
+    schema:description "An auxiliary proposition used to prove a larger theorem." .
+
+pol14:LookAtTheUnknown a skos:Concept ;
+    schema:name "Look at the unknown" ;
+    schema:description "A focus on the goal to determine an effective solution path." .
+
+pol14:ModernHeuristic a skos:Concept ;
+    schema:name "Modern heuristic" ;
+    schema:description "A contemporary approach to problem-solving strategies." .
+
+pol14:Notation a skos:Concept ;
+    schema:name "Notation" ;
+    schema:description "The importance of symbolic representation in mathematical clarity." .
+
+pol14:Pappus a skos:Concept ;
+    schema:name "Pappus" ;
+    schema:description "A reference to Pappus of Alexandria and his contributions to problem-solving." .
+
+pol14:PedantryAndMastery a skos:Concept ;
+    schema:name "Pedantry and mastery" ;
+    schema:description "The balance between rigorous precision and intuitive understanding." .
+
+pol14:PracticalProblems a skos:Concept ;
+    schema:name "Practical problems" ;
+    schema:description "Problems grounded in real-world applications." .
+
+pol14:ProblemsToFindProblemsToProve a skos:Concept ;
+    schema:name "Problems to find, problems to prove" ;
+    schema:description "The distinction between discovery problems and proof-oriented problems." .
+
+pol14:ProgressAndAchievement a skos:Concept ;
+    schema:name "Progress and achievement" ;
+    schema:description "The milestones in the problem-solving process." .
+
+pol14:Puzzles a skos:Concept ;
+    schema:name "Puzzles" ;
+    schema:description "Recreational problems that build problem-solving skills." .
+
+pol14:ReductioAdAbsurdumAndIndirectProof a skos:Concept ;
+    schema:name "Reductio ad absurdum and indirect proof" ;
+    schema:description "A technique of proving a statement by assuming the opposite and reaching a contradiction." .
+
+pol14:Redundant a skos:Concept ;
+    schema:name "Redundant†" ;
+    schema:description "No description available." .
+
+pol14:RoutineProblem a skos:Concept ;
+    schema:name "Routine problem" ;
+    schema:description "A problem that follows a well-established method or algorithm." .
+
+pol14:RulesOfDiscovery a skos:Concept ;
+    schema:name "Rules of discovery" ;
+    schema:description "Guidelines for exploring new solutions." .
+
+pol14:RulesOfStyle a skos:Concept ;
+    schema:name "Rules of style" ;
+    schema:description "Principles for clear and elegant mathematical writing." .
+
+pol14:RulesOfTeaching a skos:Concept ;
+    schema:name "Rules of teaching" ;
+    schema:description "Principles for effectively conveying mathematical ideas." .
+
+pol14:SeparateTheVariousPartsOfTheCondition a skos:Concept ;
+    schema:name "Separate the various parts of the condition" ;
+    schema:description "A strategy for analyzing complex problems by isolating conditions." .
+
+pol14:SettingUpEquations a skos:Concept ;
+    schema:name "Setting up equations" ;
+    schema:description "Translating a problem into algebraic or mathematical form." .
+
+pol14:SignsOfProgress a skos:Concept ;
+    schema:name "Signs of progress" ;
+    schema:description "Indicators that a problem-solving approach is moving forward." .
+
+pol14:Specialization a skos:Concept ;
+    schema:name "Specialization" ;
+    schema:description "Focusing on a particular case to understand a general problem." .
+
+pol14:SubconsciousWork a skos:Concept ;
+    schema:name "Subconscious work" ;
+    schema:description "The role of unconscious processing in finding solutions." .
+
+pol14:Symmetry a skos:Concept ;
+    schema:name "Symmetry" ;
+    schema:description "The use of balanced structures to simplify problems." .
+
+pol14:TermsOldAndNew a skos:Concept ;
+    schema:name "Terms, old and new" ;
+    schema:description "The evolution of mathematical language and definitions." .
+
+pol14:TestByDimension a skos:Concept ;
+    schema:name "Test by dimension" ;
+    schema:description "Checking equations by verifying their dimensional consistency." .
+
+pol14:TheFutureMathematician a skos:Concept ;
+    schema:name "The future mathematician" ;
+    schema:description "Encouragement for developing problem-solving skills." .
+
+pol14:TheIntelligentProblemSolver a skos:Concept ;
+    schema:name "The intelligent problem-solver" ;
+    schema:description "A model of an effective and adaptable thinker." .
+
+pol14:TheIntelligentReader a skos:Concept ;
+    schema:name "The intelligent reader" ;
+    schema:description "A problem-solver who actively engages with mathematical texts." .
+
+pol14:TheTraditionalMathematicsProfessor a skos:Concept ;
+    schema:name "The traditional mathematics professor" ;
+    schema:description "A reflection on conventional teaching approaches." .
+
+pol14:VariationOfTheProblem a skos:Concept ;
+    schema:name "Variation of the problem" ;
+    schema:description "Modifying a problem to explore related ideas." .
+
+pol14:WhatIsTheUnknown a skos:Concept ;
+    schema:name "What is the unknown?" ;
+    schema:description "A foundational question in problem-solving." .
+
+pol14:WhyProofs a skos:Concept ;
+    schema:name "Why proofs?" ;
+    schema:description "The importance of justification and rigor in mathematics." .
+
+pol14:WisdomOfProverbs a skos:Concept ;
+    schema:name "Wisdom of proverbs" ;
+    schema:description "The application of general wisdom to problem-solving." .
+
+pol14:WorkingBackwards a skos:Concept ;
+    schema:name "Working backwards" ;
+    schema:description "Starting from the desired result to reconstruct the solution." .
+
