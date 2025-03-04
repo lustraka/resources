@@ -2,6 +2,14 @@
 
 > **Inspired by:** George Polya (20141026) **How to Solve It: A New Aspect of Mathematical Method** (Princeton Science Library). [Kindle Edition](https://www.amazon.com/How-Solve-Aspect-Mathematical-Method-ebook/dp/B0073X0IOA/).
 
+----
+
+**Knowledge-graph-driven problem-solving transforms scattered heuristics into a structured, adaptive, and AI-enhanced framework that makes reasoning explicit, combats fragmentation, and reshapes how humans and machines collaborate to solve problems.**
+
+**As a** problem solver, **I want** to harness knowledge-graph-driven heuristics **so that I can** navigate reasoning, overcome fragmentation, and collaborate effectively to solve complex problems.
+
+----
+
 [**Modern heuristic**](ModernHeuristic.md) seeks to understand problem-solving by analyzing *mental operations* that aid the process. It integrates logical and psychological insights, drawing from historical thinkers like [Pappus](Pappus.md), [Descartes](Descartes.md), [Leibniz](Leibnitz.md), and [Bolzano](Bolzano.md) while emphasizing direct problem-solving experience. A comprehensive study should identify universal strategies across diverse problems, focusing on general principles rather than domain-specific details. Ultimately, its practical aim is to enhance the teaching of mathematics and **improve problem-solving efficiency**.
 
 Representing Pólya’s heuristics in  **Turtle format** ([pol14.ttl](pol14.ttl)) provides a **structured, interoperable, and queryable way** to present these heuristics. This representation is useful for **knowledge graph-driven problem-solving**, AI integration, and education.
@@ -121,4 +129,16 @@ The following figure and chapters provide a repertoire of other steps involved i
 - [Wisdom of proverbs](WisdomOfProverbs.md) : The application of general wisdom to problem-solving.
 - [Working backwards](WorkingBackwards.md) : Starting from the desired result to reconstruct the solution.
 
-† Contains only cross-references.
+† Contains only cross-references (in the Pólya's book).
+
+## The Story of Knowledge-Graph-Driven Problem-Solving
+
+> 🤖 Take a step back, generalize a little, and compose a succinct micro-story about this knowledge-graph-driven problem-solving, where it’s come from, where it’s going, what it’s fighting, and what it is doing in the world. 
+
+For centuries, problem-solving was guided by intuition, experience, and scattered heuristics—fragments of wisdom passed down from thinkers like Pappus, Descartes, Leibniz, and Pólya. Each generation refined the art, but the process remained largely informal, elusive, and difficult to scale.  
+
+Enter the knowledge graph: a structured, interoperable web of problem-solving strategies, mapping the way thinkers move from confusion to clarity. It doesn’t replace intuition—it enhances it. By capturing the nonlinear flow of reasoning, linking heuristics to structured logic, and integrating AI-driven insights, it builds a foundation where human and machine intelligence collaborate.  
+
+It fights fragmentation—disjointed problem-solving methods trapped in specialized silos. It challenges rigidity, breaking free from static models to embrace adaptive, real-time reasoning. Most of all, it resists opacity, making the pathways of thought explicit, traceable, and improvable.  
+
+Where is it going? Toward a world where problem-solving is not just an art but an evolving, navigable space—one where students, researchers, and AI systems can traverse the landscape of ideas, discover new strategies, and refine the way we think. It is not just documenting how we solve problems—it is reshaping how we learn to think.
