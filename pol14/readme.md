@@ -27,20 +27,20 @@ pol14:HowToSolveIt a skos:Concept, ibis:Issue ;
     ibis:concerns pol14:UnderstandingTheProblem, pol14:DevisingAPlan, pol14:CarryingOutThePlan, pol14:LookingBack .
 ```
 
-The following figure and chapters provide a repertoire of other steps involved in problem-solving. While there is no fixed predefined design-time sequence, the solver can dynamically track their progression in various real-time cases. The process of devising a solution is inherently nonlinear, often requiring reflection and reciprocal shaping of earlier steps based on emerging insights. Rather than a rigid sequence, problem-solving unfolds as an evolving interplay between exploration and refinement, where each step contributes meaningfully to the development of the solution. **The tracking of this process, supported by a knowledge graph, allows for the accumulation of knowledge and facilitates iterative reasoning and adaptation based on contextual needs.** By mapping these steps, this framework aids in structured decision-making and enhances the solver’s ability to refine strategies over time.
+The following figure and chapters provide a repertoire of other steps involved in problem-solving. While there is no fixed predefined design-time sequence, the solver can dynamically track their progression in various run-time cases. The process of devising a solution is inherently nonlinear, often requiring reflection and reciprocal shaping of earlier steps based on emerging insights. Rather than a rigid sequence, problem-solving unfolds as an evolving interplay between exploration and refinement, where each step contributes meaningfully to the development of the solution. **The tracking of this process, supported by a knowledge graph, allows for the accumulation of knowledge and facilitates iterative reasoning and adaptation based on contextual needs.** By mapping these steps, this framework aids in structured decision-making and enhances the solver’s ability to refine strategies over time.
 
 ![](PolyaG-2014.png)
 
-## How To Solve It (Starting Point for Problem-Solving)
+## [How To Solve It](HowToSolveIt.md) (Starting Point for Problem-Solving)
 > A structured method for problem-solving proposed by George Pólya, consisting of four main steps: understanding the problem, devising a plan, carrying out the plan, and looking back. It emphasizes heuristics and general strategies applicable across various problem domains.
 
-### Understanding the Problem 
+### [Understanding the Problem](UnderstandingTheProblem.md)
 > Identify what is given, what is unknown, and the conditions.
 
 [What is the unknown](WhatIsTheUnknown.md)? What are the data? What is the [condition](Condition.md)? [Is it possible to satisfy the condition](IsItPossibleToSatisfyTheCondition.md)? Is the condition sufficient to determine the unknown? Or is it insufficient? Or [redundant](Redundant.md)? Or [contradictory](Contradictory.md)? [Draw a figure.](DrawAFigure.md) Introduce suitable [notation](Notation.md). [Separate the various parts of the condition](SeparateTheVariousPartsOfTheCondition.md). Can you write them down?
 
 
-### Devising a Plan 
+### [Devising a Plan](DevisingAPlan.md)
 > Think of possible strategies (e.g., working backward, drawing diagrams, using analogies).
 
 [Have you seen it before](HaveYouSeenItBefore.md)? Or have you seen the same problem in a slightly different form? [Do you know a related problem](DoYouKnowARelatedProblem.md)? Do you know a theorem that could be useful? [Look at the unknown](LookAtTheUnknown.md)! And try to think of a familiar problem having the same or a similar unknown. [Here is a problem related to yours and solved before](HereIsAProblemRelatedToYoursAndSolvedBefore.md). Could you use it? Could you use its result? Could you use its method? Should you introduce some [auxiliary element](AuxiliaryElements.md) in order to make its use possible? [Could you restate the problem](CouldYouRestateTheProblem.md)? Could you restate it still differently? Go back to [definitions](Definition.md). 
@@ -48,13 +48,13 @@ The following figure and chapters provide a repertoire of other steps involved i
 [If you cannot solve the proposed problem](IfYouCannotSolveTheProposedProblem.md) try to solve first some related problem. Could you imagine a more accessible related problem? A more [general problem](Generalization.md)? A more [special problem](Specialization.md)? An [analogous problem](Analogy.md)? Could you solve a part of the problem? Keep only a part of the condition, drop the other part; how far is the unknown then determined, how can it vary? [Could you derive something useful from the data](CouldYouDeriveSomethingUsefulFromTheData.md)? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other? [Did you use all the data](DidYouUseAllTheData.md)? Did you use the whole condition? Have you taken into account all essential notions involved in the problem?
 
 
-### Carrying Out the Plan 
+### [Carrying Out the Plan](CarryingOutThePlan.md)
 > Execute the chosen method carefully.
 
 [Carrying out](CarryingOut.md) your plan of the solution, check each step. Can you see clearly that the step is correct? Can you prove that it is correct?
 
 
-### Looking Back 
+### [Looking Back](LookingBack.md)
 > Reflect on the solution, check results, and consider alternative approaches.
 
 [Can you check the result](CanYouCheckTheResult.md)? Can you check the argument? [Can you derive the result differently](CanYouDeriveTheResultDifferently.md)? Can you see it at a glance? [Can you use the result](CanYouUseTheResult.md), or the method, for some other problem?
