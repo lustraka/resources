@@ -1,0 +1,14 @@
+[
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "#[endpoint=pol14.ttl]\r\nPREFIX pol14: <https://lustraka.github.io/resources/pol14/>\r\nPREFIX schema: <http://schema.org/>\r\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\r\nPREFIX ibis: <https://vocab.​methodandstructure.​com/ibis#>\r\n\r\nSELECT ?name ?description\r\nWHERE {\r\n    ?s a ibis:Issue .\r\n    ?s schema:name ?name .\r\n    ?s schema:description ?description .\r\n}\r\nORDER BY ?name",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "",
+    "metadata": {}
+  }
+]

@@ -1,6 +1,28 @@
 @prefix pol14: <https://lustraka.github.io/resources/pol14/> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ibis: <https://vocab.​methodandstructure.​com/ibis#> .
+
+pol14:HowToSolveIt a skos:Concept, ibis:Issue ;
+    schema:name "How to Solve It" ;
+    schema:description "A structured method for problem-solving proposed by George Pólya, consisting of four main steps: understanding the problem, devising a plan, carrying out the plan, and looking back. It emphasizes heuristics and general strategies applicable across various problem domains." ;
+    ibis:concerns pol14:UnderstandingTheProblem, pol14:DevisingAPlan, pol14:CarryingOutThePlan, pol14:LookingBack .
+
+pol14:UnderstandingTheProblem a skos:Concept, ibis:Issue ;
+    schema:name "Understanding the Problem" ;
+    schema:description "Identify what is given, what is unknown, and the conditions." .
+
+pol14:DevisingAPlan a skos:Concept, ibis:Issue ;
+    schema:name "Devising a Plan" ;
+    schema:description "Think of possible strategies (e.g., working backward, drawing diagrams, using analogies)." .
+
+pol14:CarryingOutThePlan a skos:Concept, ibis:Issue ;
+    schema:name "Carrying Out the Plan" ;
+    schema:description "Execute the chosen method carefully." .
+
+pol14:LookingBack a skos:Concept, ibis:Issue ;
+    schema:name "Looking Back" ;
+    schema:description "Reflect on the solution, check results, and consider alternative approaches." .
 
 pol14:Analogy a skos:Concept ;
     schema:name "Analogy" ;
@@ -22,19 +44,19 @@ pol14:BrightIdea a skos:Concept ;
     schema:name "Bright idea" ;
     schema:description "An unexpected insight or intuition that advances problem-solving." .
 
-pol14:CanYouCheckTheResult a skos:Concept ;
+pol14:CanYouCheckTheResult a skos:Concept, ibis:Issue ;
     schema:name "Can you check the result?" ;
     schema:description "A call to verify the solution’s correctness by reconsidering the process." .
 
-pol14:CanYouDeriveTheResultDifferently a skos:Concept ;
+pol14:CanYouDeriveTheResultDifferently a skos:Concept, ibis:Issue ;
     schema:name "Can you derive the result differently?" ;
     schema:description "A suggestion to confirm a result by finding an alternative approach." .
 
-pol14:CanYouUseTheResult a skos:Concept ;
+pol14:CanYouUseTheResult a skos:Concept, ibis:Issue ;
     schema:name "Can you use the result?" ;
     schema:description "Encouragement to apply a derived result to a new or related problem." .
 
-pol14:CarryingOut a skos:Concept ;
+pol14:CarryingOut a skos:Concept, ibis:Issue ;
     schema:name "Carrying out" ;
     schema:description "The stage of executing the problem-solving plan systematically." .
 
@@ -50,11 +72,11 @@ pol14:Corollary a skos:Concept ;
     schema:name "Corollary" ;
     schema:description "A direct consequence or extension of a previously established result." .
 
-pol14:CouldYouDeriveSomethingUsefulFromTheData a skos:Concept ;
+pol14:CouldYouDeriveSomethingUsefulFromTheData a skos:Concept, ibis:Issue ;
     schema:name "Could you derive something useful from the data?" ;
     schema:description "Encourages extracting meaningful insights from given information." .
 
-pol14:CouldYouRestateTheProblem a skos:Concept ;
+pol14:CouldYouRestateTheProblem a skos:Concept, ibis:Issue ;
     schema:name "Could you restate the problem?†" ;
     schema:description "No description available." .
 
@@ -78,15 +100,15 @@ pol14:Diagnosis a skos:Concept ;
     schema:name "Diagnosis" ;
     schema:description "Examining a problem deeply to identify its key difficulties." .
 
-pol14:DidYouUseAllTheData a skos:Concept ;
+pol14:DidYouUseAllTheData a skos:Concept, ibis:Issue ;
     schema:name "Did you use all the data?" ;
     schema:description "A reminder to consider all given information in problem-solving." .
 
-pol14:DoYouKnowARelatedProblem a skos:Concept ;
+pol14:DoYouKnowARelatedProblem a skos:Concept, ibis:Issue ;
     schema:name "Do you know a related problem?" ;
     schema:description "Encourages recalling similar problems that may offer a solution path." .
 
-pol14:DrawAFigure a skos:Concept ;
+pol14:DrawAFigure a skos:Concept, ibis:Issue ;
     schema:name "Draw a figure†" ;
     schema:description "No description available." .
 
@@ -102,11 +124,11 @@ pol14:Generalization a skos:Concept ;
     schema:name "Generalization" ;
     schema:description "Extending a specific result to a broader context." .
 
-pol14:HaveYouSeenItBefore a skos:Concept ;
+pol14:HaveYouSeenItBefore a skos:Concept, ibis:Issue ;
     schema:name "Have you seen it before?" ;
     schema:description "Encourages pattern recognition and recalling past problem-solving experiences." .
 
-pol14:HereIsAProblemRelatedToYoursAndSolvedBefore a skos:Concept ;
+pol14:HereIsAProblemRelatedToYoursAndSolvedBefore a skos:Concept, ibis:Issue ;
     schema:name "Here is a problem related to yours and solved before" ;
     schema:description "A reminder to draw insights from similar solved problems." .
 
@@ -118,7 +140,7 @@ pol14:HeuristicReasoning a skos:Concept ;
     schema:name "Heuristic reasoning" ;
     schema:description "A method of thinking that relies on intuition and experience rather than strict logic." .
 
-pol14:IfYouCannotSolveTheProposedProblem a skos:Concept ;
+pol14:IfYouCannotSolveTheProposedProblem a skos:Concept, ibis:Issue ;
     schema:name "If you cannot solve the proposed problem" ;
     schema:description "Encourages modifying the problem or approaching it differently." .
 
@@ -130,7 +152,7 @@ pol14:InventorsParadox a skos:Concept ;
     schema:name "Inventor’s paradox" ;
     schema:description "The idea that aiming for a more general problem may make it easier to solve." .
 
-pol14:IsItPossibleToSatisfyTheCondition a skos:Concept ;
+pol14:IsItPossibleToSatisfyTheCondition a skos:Concept, ibis:Issue ;
     schema:name "Is it possible to satisfy the condition?" ;
     schema:description "A key question in determining problem feasibility." .
 
@@ -142,7 +164,7 @@ pol14:Lemma a skos:Concept ;
     schema:name "Lemma" ;
     schema:description "An auxiliary proposition used to prove a larger theorem." .
 
-pol14:LookAtTheUnknown a skos:Concept ;
+pol14:LookAtTheUnknown a skos:Concept, ibis:Issue ;
     schema:name "Look at the unknown" ;
     schema:description "A focus on the goal to determine an effective solution path." .
 
@@ -202,7 +224,7 @@ pol14:RulesOfTeaching a skos:Concept ;
     schema:name "Rules of teaching" ;
     schema:description "Principles for effectively conveying mathematical ideas." .
 
-pol14:SeparateTheVariousPartsOfTheCondition a skos:Concept ;
+pol14:SeparateTheVariousPartsOfTheCondition a skos:Concept, ibis:Issue ;
     schema:name "Separate the various parts of the condition" ;
     schema:description "A strategy for analyzing complex problems by isolating conditions." .
 
@@ -254,7 +276,7 @@ pol14:VariationOfTheProblem a skos:Concept ;
     schema:name "Variation of the problem" ;
     schema:description "Modifying a problem to explore related ideas." .
 
-pol14:WhatIsTheUnknown a skos:Concept ;
+pol14:WhatIsTheUnknown a skos:Concept, ibis:Issue ;
     schema:name "What is the unknown?" ;
     schema:description "A foundational question in problem-solving." .
 

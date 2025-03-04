@@ -6,9 +6,26 @@
 
 Representing Pólya’s heuristics in  **Turtle format** ([pol14.ttl](pol14.ttl)) provides a **structured, interoperable, and queryable way** to present these heuristics. This representation is useful for **knowledge graph-driven problem-solving**, AI integration, and education.
 
+Building on this, integrating Pólya's heuristics with the **IBIS (Issue-Based Information System)** vocabulary refines the structured representation of problem-solving. Key steps are designated as `ibis:Issue`, embedding them within an argumentation-based framework that emphasizes reasoning and decision-making. The `ibis:concerns` property systematically maps the interdependencies among these steps, capturing the dynamic flow of the problem-solving process. Below is the initial node of this structured network:
+
+```ttl
+@prefix pol14: <https://lustraka.github.io/resources/pol14/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ibis: <https://vocab.​methodandstructure.​com/ibis#> .
+
+pol14:HowToSolveIt a skos:Concept, ibis:Issue ;
+    schema:name "How to Solve It" ;
+    ibis:concerns pol14:UnderstandingTheProblem, pol14:DevisingAPlan, pol14:CarryingOutThePlan, pol14:LookingBack .
+```
+
+The following figure and chapters provide a repertoire of other steps involved in problem-solving. While there is no fixed predefined design-time sequence, the solver can dynamically track their progression in various real-time cases. The process of devising a solution is inherently nonlinear, often requiring reflection and reciprocal shaping of earlier steps based on emerging insights. Rather than a rigid sequence, problem-solving unfolds as an evolving interplay between exploration and refinement, where each step contributes meaningfully to the development of the solution. **The tracking of this process, supported by a knowledge graph, allows for the accumulation of knowledge and facilitates iterative reasoning and adaptation based on contextual needs.** By mapping these steps, this framework aids in structured decision-making and enhances the solver’s ability to refine strategies over time.
+
 ![](PolyaG-2014.png)
 
-## How To Solve It Heuristic
+## How To Solve It (Starting Point for Problem-Solving)
+> A structured method for problem-solving proposed by George Pólya, consisting of four main steps: understanding the problem, devising a plan, carrying out the plan, and looking back. It emphasizes heuristics and general strategies applicable across various problem domains.
+
 ### Understanding the Problem 
 > Identify what is given, what is unknown, and the conditions.
 
