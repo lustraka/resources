@@ -50,7 +50,7 @@ Artifact | Description
 - Please cite as:
 
 ```bibtex
-@misc{straka2025coedit,
+@misc{straka2025pechar,
   author = {Straka, Lubomír},
   title = {Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins},
   year = {2025},
