@@ -56,6 +56,7 @@ Artifact | Description
   year = {2025},
   url = {https://lustraka.github.io/resources/pechar/}
 }
+```
 
 ----
 
