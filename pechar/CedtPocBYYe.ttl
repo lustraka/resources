@@ -1,0 +1,1451 @@
+@prefix pecha: <http://data.europa.eu/eli/reg_impl/2019/317#> .
+@prefix pechar: <https://lustraka.github.io/resources/pechar/> .
+@prefix schema: <http://schema.org/> .
+@prefix ses: <https://eur-lex.europa.eu/eli/reg/2024/2803/oj/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pecha:anx_I_sec_2_point_4_1 a schema:Legislation ;
+    schema:isPartOf pecha:anx_I ;
+    schema:name "Key performance indicators" ;
+    schema:text "(a) The DUC for en route air navigation services, calculated as follows: (i) the ratio between the en route determined costs and the forecast traffic in the charging zone, expressed in en route service units, expected during each year of the reference period at local level, contained in the performance plans; (ii) expressed in real terms and in national currency; (iii) calculated for the whole calendar year and for each year of the reference period. (b) The DUC for terminal air navigation services, calculated as follows: (i) the ratio between the determined costs and the forecast traffic, expressed in terminal service units, expected during each year of the reference period at local level, contained in the performance plans; (ii) expressed in real terms and in national currency; (iii) calculated for the whole calendar year and for each year of the reference period. For the purposes of the indicators set out in points (a) and (b), ‘local’ means at charging zone level." .
+
+pecha:art_22_para_4 a schema:Legislation ;
+    schema:isPartOf pecha:art_22 ;
+    schema:text "4. The determined costs included in the cost bases for en route and terminal charges shall consist of: (a) staff costs; (b) operating costs other than staff costs; (c) depreciation costs; (d) cost of capital; (e)  exceptional costs; ..." .
+
+pecha:art_8 a schema:Legislation ;
+    schema:isPartOf pecha: ;
+    schema:name "Key performance indicators and indicators for monitoring" ;
+    schema:text "... 2. The key performance indicators and the indicators for monitoring the performance of air navigation services at national level or at the level of functional airspace blocks shall be those established in Section 2 of Annex I. ..." .
+
+ses:AirNavigationServices a schema:DefinedTerm ;
+    schema:description "(5) ‘air navigation services’ or ‘ANS’ means air traffic services; communication, navigation and surveillance services (CNS) including services which augment signals emitted by satellites of core constellations of GNSS for the purpose of air navigation; meteorological services for air navigation (MET); aeronautical information services (AIS); and air traffic data services (ADS)." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "air navigation services" ;
+    schema:termCode "ANS" .
+
+pechar:bYYe001 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 8752200 ;
+    pechar:AmountEnRouteEUR 6867900 ;
+    pechar:AmountTerminalEUR 1884300 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe002 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 624800 ;
+    pechar:AmountEnRouteEUR 585300 ;
+    pechar:AmountTerminalEUR 39500 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe003 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 18485100 ;
+    pechar:AmountEnRouteEUR 15084600 ;
+    pechar:AmountTerminalEUR 3400500 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe004 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 549900 ;
+    pechar:AmountEnRouteEUR 451300 ;
+    pechar:AmountTerminalEUR 98600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe005 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 124100 ;
+    pechar:AmountEnRouteEUR 121500 ;
+    pechar:AmountTerminalEUR 2600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe006 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 35861500 ;
+    pechar:AmountEnRouteEUR 35861500 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2111_ACC ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe007 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 15000 ;
+    pechar:AmountEnRouteEUR 15000 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2111_ACC ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe008 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2100 ;
+    pechar:AmountEnRouteEUR 2100 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2111_ACC ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe009 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 20603400 ;
+    pechar:AmountEnRouteEUR 9570700 ;
+    pechar:AmountTerminalEUR 11032700 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2120_AaACC ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe010 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 15600 ;
+    pechar:AmountEnRouteEUR 0 ;
+    pechar:AmountTerminalEUR 15600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2120_AaACC ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe011 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 5600400 ;
+    pechar:AmountEnRouteEUR 2800200 ;
+    pechar:AmountTerminalEUR 2800200 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2130_RAAS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe012 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 19600 ;
+    pechar:AmountEnRouteEUR 9800 ;
+    pechar:AmountTerminalEUR 9800 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2130_RAAS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe013 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 664600 ;
+    pechar:AmountEnRouteEUR 332300 ;
+    pechar:AmountTerminalEUR 332300 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe014 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 178400 ;
+    pechar:AmountEnRouteEUR 89200 ;
+    pechar:AmountTerminalEUR 89200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe015 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 22600 ;
+    pechar:AmountEnRouteEUR 11300 ;
+    pechar:AmountTerminalEUR 11300 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe016 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 464000 ;
+    pechar:AmountEnRouteEUR 401400 ;
+    pechar:AmountTerminalEUR 62600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe017 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1802100 ;
+    pechar:AmountEnRouteEUR 1488000 ;
+    pechar:AmountTerminalEUR 314100 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe018 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 238800 ;
+    pechar:AmountEnRouteEUR 132500 ;
+    pechar:AmountTerminalEUR 106300 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe019 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 587700 ;
+    pechar:AmountEnRouteEUR 499100 ;
+    pechar:AmountTerminalEUR 88600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe020 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 8900 ;
+    pechar:AmountEnRouteEUR 8900 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe021 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 124000 ;
+    pechar:AmountEnRouteEUR 111700 ;
+    pechar:AmountTerminalEUR 12300 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2300_APaD ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe022 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 286000 ;
+    pechar:AmountEnRouteEUR 244000 ;
+    pechar:AmountTerminalEUR 42000 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2300_APaD ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe023 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2309000 ;
+    pechar:AmountEnRouteEUR 1416900 ;
+    pechar:AmountTerminalEUR 892100 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe024 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 249800 ;
+    pechar:AmountEnRouteEUR 168100 ;
+    pechar:AmountTerminalEUR 81700 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe025 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1223300 ;
+    pechar:AmountEnRouteEUR 995100 ;
+    pechar:AmountTerminalEUR 228200 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe026 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 893400 ;
+    pechar:AmountEnRouteEUR 695200 ;
+    pechar:AmountTerminalEUR 198200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe027 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 42100 ;
+    pechar:AmountEnRouteEUR 42100 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe028 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 51800 ;
+    pechar:AmountEnRouteEUR 44800 ;
+    pechar:AmountTerminalEUR 7000 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2410_AIM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe029 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 203900 ;
+    pechar:AmountEnRouteEUR 148500 ;
+    pechar:AmountTerminalEUR 55400 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe030 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 51200 ;
+    pechar:AmountEnRouteEUR 43500 ;
+    pechar:AmountTerminalEUR 7700 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe031 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1406600 ;
+    pechar:AmountEnRouteEUR 1406600 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4210_FMaA ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe032 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3759800 ;
+    pechar:AmountEnRouteEUR 2856700 ;
+    pechar:AmountTerminalEUR 903100 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe033 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 5215800 ;
+    pechar:AmountEnRouteEUR 4128600 ;
+    pechar:AmountTerminalEUR 1087200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe034 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2816800 ;
+    pechar:AmountEnRouteEUR 2153300 ;
+    pechar:AmountTerminalEUR 663500 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:201AirTrafficManagement .
+
+pechar:bYYe035 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 425400 ;
+    pechar:AmountEnRouteEUR 349300 ;
+    pechar:AmountTerminalEUR 76100 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe036 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2670500 ;
+    pechar:AmountEnRouteEUR 2112700 ;
+    pechar:AmountTerminalEUR 557800 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe037 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 274300 ;
+    pechar:AmountEnRouteEUR 221700 ;
+    pechar:AmountTerminalEUR 52600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe038 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 483000 ;
+    pechar:AmountEnRouteEUR 241500 ;
+    pechar:AmountTerminalEUR 241500 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe039 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 93800 ;
+    pechar:AmountEnRouteEUR 46900 ;
+    pechar:AmountTerminalEUR 46900 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe040 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 64000 ;
+    pechar:AmountEnRouteEUR 64000 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe041 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3653100 ;
+    pechar:AmountEnRouteEUR 3120400 ;
+    pechar:AmountTerminalEUR 532700 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe042 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1964700 ;
+    pechar:AmountEnRouteEUR 1610600 ;
+    pechar:AmountTerminalEUR 354100 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe043 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 205800 ;
+    pechar:AmountEnRouteEUR 173200 ;
+    pechar:AmountTerminalEUR 32600 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe044 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 97900 ;
+    pechar:AmountEnRouteEUR 83900 ;
+    pechar:AmountTerminalEUR 14000 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe045 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 55000 ;
+    pechar:AmountEnRouteEUR 48400 ;
+    pechar:AmountTerminalEUR 6600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe046 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 121600 ;
+    pechar:AmountEnRouteEUR 103400 ;
+    pechar:AmountTerminalEUR 18200 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe047 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 364400 ;
+    pechar:AmountEnRouteEUR 319200 ;
+    pechar:AmountTerminalEUR 45200 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe048 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 13500 ;
+    pechar:AmountEnRouteEUR 13500 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe049 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 8300 ;
+    pechar:AmountEnRouteEUR 8300 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe050 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 58100 ;
+    pechar:AmountEnRouteEUR 53900 ;
+    pechar:AmountTerminalEUR 4200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe051 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 16600 ;
+    pechar:AmountEnRouteEUR 8300 ;
+    pechar:AmountTerminalEUR 8300 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:202Communication .
+
+pechar:bYYe052 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 297800 ;
+    pechar:AmountEnRouteEUR 244200 ;
+    pechar:AmountTerminalEUR 53600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe053 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1213200 ;
+    pechar:AmountEnRouteEUR 822000 ;
+    pechar:AmountTerminalEUR 391200 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe054 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 85000 ;
+    pechar:AmountEnRouteEUR 42500 ;
+    pechar:AmountTerminalEUR 42500 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe055 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 4600 ;
+    pechar:AmountEnRouteEUR 2300 ;
+    pechar:AmountTerminalEUR 2300 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe056 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 4000 ;
+    pechar:AmountEnRouteEUR 4000 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe057 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3003000 ;
+    pechar:AmountEnRouteEUR 2491000 ;
+    pechar:AmountTerminalEUR 512000 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe058 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 308200 ;
+    pechar:AmountEnRouteEUR 259000 ;
+    pechar:AmountTerminalEUR 49200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe059 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 11200 ;
+    pechar:AmountEnRouteEUR 11200 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2213_NaRCS ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe060 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 6600 ;
+    pechar:AmountEnRouteEUR 6600 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe061 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 41900 ;
+    pechar:AmountEnRouteEUR 31400 ;
+    pechar:AmountTerminalEUR 10500 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe062 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 227500 ;
+    pechar:AmountEnRouteEUR 176900 ;
+    pechar:AmountTerminalEUR 50600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe063 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 124700 ;
+    pechar:AmountEnRouteEUR 82800 ;
+    pechar:AmountTerminalEUR 41900 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:203Navigation .
+
+pechar:bYYe064 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 758000 ;
+    pechar:AmountEnRouteEUR 590400 ;
+    pechar:AmountTerminalEUR 167600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe065 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1790400 ;
+    pechar:AmountEnRouteEUR 1726100 ;
+    pechar:AmountTerminalEUR 64300 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe066 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1003800 ;
+    pechar:AmountEnRouteEUR 501900 ;
+    pechar:AmountTerminalEUR 501900 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe067 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 108600 ;
+    pechar:AmountEnRouteEUR 54300 ;
+    pechar:AmountTerminalEUR 54300 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe068 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3996500 ;
+    pechar:AmountEnRouteEUR 3449800 ;
+    pechar:AmountTerminalEUR 546700 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe069 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 835400 ;
+    pechar:AmountEnRouteEUR 643800 ;
+    pechar:AmountTerminalEUR 191600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe070 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 7600 ;
+    pechar:AmountEnRouteEUR 0 ;
+    pechar:AmountTerminalEUR 7600 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe071 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 239700 ;
+    pechar:AmountEnRouteEUR 179100 ;
+    pechar:AmountTerminalEUR 60600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe072 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 528600 ;
+    pechar:AmountEnRouteEUR 410200 ;
+    pechar:AmountTerminalEUR 118400 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe073 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 15400 ;
+    pechar:AmountEnRouteEUR 4000 ;
+    pechar:AmountTerminalEUR 11400 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe074 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 16200 ;
+    pechar:AmountEnRouteEUR 16200 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe075 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 75300 ;
+    pechar:AmountEnRouteEUR 75300 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe076 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 463800 ;
+    pechar:AmountEnRouteEUR 459000 ;
+    pechar:AmountTerminalEUR 4800 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe077 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 237100 ;
+    pechar:AmountEnRouteEUR 237100 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:204Surveillance .
+
+pechar:bYYe078 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 53500 ;
+    pechar:AmountEnRouteEUR 53500 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:205SearchAndRescue .
+
+pechar:bYYe079 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 7000 ;
+    pechar:AmountEnRouteEUR 7000 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:205SearchAndRescue .
+
+pechar:bYYe080 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 666400 ;
+    pechar:AmountEnRouteEUR 666400 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2112_RCC ;
+    pechar:Service pechar:205SearchAndRescue .
+
+pechar:bYYe081 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2900 ;
+    pechar:AmountEnRouteEUR 2900 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:205SearchAndRescue .
+
+pechar:bYYe082 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 270400 ;
+    pechar:AmountEnRouteEUR 178400 ;
+    pechar:AmountTerminalEUR 92000 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe083 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 534900 ;
+    pechar:AmountEnRouteEUR 353000 ;
+    pechar:AmountTerminalEUR 181900 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe084 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 88600 ;
+    pechar:AmountEnRouteEUR 58500 ;
+    pechar:AmountTerminalEUR 30100 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe085 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 6400 ;
+    pechar:AmountEnRouteEUR 4200 ;
+    pechar:AmountTerminalEUR 2200 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe086 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 98100 ;
+    pechar:AmountEnRouteEUR 64700 ;
+    pechar:AmountTerminalEUR 33400 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe087 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3011000 ;
+    pechar:AmountEnRouteEUR 1987400 ;
+    pechar:AmountTerminalEUR 1023600 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2410_AIM ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe088 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 281100 ;
+    pechar:AmountEnRouteEUR 185500 ;
+    pechar:AmountTerminalEUR 95600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2410_AIM ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe089 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 3300 ;
+    pechar:AmountEnRouteEUR 2200 ;
+    pechar:AmountTerminalEUR 1100 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2410_AIM ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe090 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 15300 ;
+    pechar:AmountEnRouteEUR 10100 ;
+    pechar:AmountTerminalEUR 5200 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe091 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 4000 ;
+    pechar:AmountEnRouteEUR 2600 ;
+    pechar:AmountTerminalEUR 1400 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:206AeronauticalInformation .
+
+pechar:bYYe092 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 76100 ;
+    pechar:AmountEnRouteEUR 69200 ;
+    pechar:AmountTerminalEUR 6900 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:207MeteorologicalServices .
+
+pechar:bYYe093 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 9400 ;
+    pechar:AmountEnRouteEUR 9400 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:207MeteorologicalServices .
+
+pechar:bYYe094 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 10900 ;
+    pechar:AmountEnRouteEUR 10900 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:208SupervisionCosts .
+
+pechar:bYYe095 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 179600 ;
+    pechar:AmountEnRouteEUR 158300 ;
+    pechar:AmountTerminalEUR 21300 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:208SupervisionCosts .
+
+pechar:bYYe096 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 30000 ;
+    pechar:AmountEnRouteEUR 30000 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:208SupervisionCosts .
+
+pechar:bYYe097 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 559400 ;
+    pechar:AmountEnRouteEUR 559400 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:209OtherStateCosts .
+
+pechar:bYYe098 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 8313500 ;
+    pechar:AmountEnRouteEUR 8313500 ;
+    pechar:AmountTerminalEUR 0 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4210_FMaA ;
+    pechar:Service pechar:209OtherStateCosts .
+
+pechar:bYYe099 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 6969800 ;
+    pechar:AmountEnRouteEUR 5988900 ;
+    pechar:AmountTerminalEUR 980900 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe100 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2331600 ;
+    pechar:AmountEnRouteEUR 2005200 ;
+    pechar:AmountTerminalEUR 326400 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe101 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 4337000 ;
+    pechar:AmountEnRouteEUR 3729800 ;
+    pechar:AmountTerminalEUR 607200 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:1000_CS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe102 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2468900 ;
+    pechar:AmountEnRouteEUR 2123200 ;
+    pechar:AmountTerminalEUR 345700 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe103 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 200300 ;
+    pechar:AmountEnRouteEUR 172400 ;
+    pechar:AmountTerminalEUR 27900 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe104 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2300 ;
+    pechar:AmountEnRouteEUR 2000 ;
+    pechar:AmountTerminalEUR 300 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2000_ANOM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe105 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 48000 ;
+    pechar:AmountEnRouteEUR 41300 ;
+    pechar:AmountTerminalEUR 6700 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2201_CIM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe106 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 209700 ;
+    pechar:AmountEnRouteEUR 180300 ;
+    pechar:AmountTerminalEUR 29400 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2211_SaRS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe107 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 177700 ;
+    pechar:AmountEnRouteEUR 152900 ;
+    pechar:AmountTerminalEUR 24800 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe108 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 178100 ;
+    pechar:AmountEnRouteEUR 153200 ;
+    pechar:AmountTerminalEUR 24900 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe109 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 29900 ;
+    pechar:AmountEnRouteEUR 25700 ;
+    pechar:AmountTerminalEUR 4200 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:2212_ATS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe110 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 344100 ;
+    pechar:AmountEnRouteEUR 296000 ;
+    pechar:AmountTerminalEUR 48100 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2300_APaD ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe111 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 90200 ;
+    pechar:AmountEnRouteEUR 77500 ;
+    pechar:AmountTerminalEUR 12700 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2300_APaD ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe112 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1783100 ;
+    pechar:AmountEnRouteEUR 1533400 ;
+    pechar:AmountTerminalEUR 249700 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe113 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 52500 ;
+    pechar:AmountEnRouteEUR 45000 ;
+    pechar:AmountTerminalEUR 7500 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2310_AMaS ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe114 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2281900 ;
+    pechar:AmountEnRouteEUR 1914000 ;
+    pechar:AmountTerminalEUR 367900 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe115 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 163500 ;
+    pechar:AmountEnRouteEUR 140900 ;
+    pechar:AmountTerminalEUR 22600 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:2320_PMO ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe116 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1699500 ;
+    pechar:AmountEnRouteEUR 1461600 ;
+    pechar:AmountTerminalEUR 237900 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe117 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1468700 ;
+    pechar:AmountEnRouteEUR 1263400 ;
+    pechar:AmountTerminalEUR 205300 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4110_HRM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe118 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1957500 ;
+    pechar:AmountEnRouteEUR 1683400 ;
+    pechar:AmountTerminalEUR 274100 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4210_FMaA ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe119 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 658200 ;
+    pechar:AmountEnRouteEUR 566000 ;
+    pechar:AmountTerminalEUR 92200 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4210_FMaA ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe120 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 2475400 ;
+    pechar:AmountEnRouteEUR 2128900 ;
+    pechar:AmountTerminalEUR 346500 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe121 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1650000 ;
+    pechar:AmountEnRouteEUR 1419100 ;
+    pechar:AmountTerminalEUR 230900 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe122 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 405700 ;
+    pechar:AmountEnRouteEUR 348600 ;
+    pechar:AmountTerminalEUR 57100 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:4610_AaFM ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe123 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 5723200 ;
+    pechar:AmountEnRouteEUR 4922000 ;
+    pechar:AmountTerminalEUR 801200 ;
+    pechar:CostType pechar:aStaffCosts ;
+    pechar:OrganizationalUnit pechar:7000_ATA ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe124 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 1983900 ;
+    pechar:AmountEnRouteEUR 1706100 ;
+    pechar:AmountTerminalEUR 277800 ;
+    pechar:CostType pechar:bOperatingCosts ;
+    pechar:OrganizationalUnit pechar:7000_ATA ;
+    pechar:Service pechar:299IndirectCosts .
+
+pechar:bYYe125 a pechar:BudgetEntry ;
+    pechar:AccountingPeriod "YYYY" ;
+    pechar:AmountEUR 341500 ;
+    pechar:AmountEnRouteEUR 293700 ;
+    pechar:AmountTerminalEUR 47800 ;
+    pechar:CostType pechar:cDepreciationCosts ;
+    pechar:OrganizationalUnit pechar:7000_ATA ;
+    pechar:Service pechar:299IndirectCosts .
+
+pecha:anx_I a schema:Legislation ;
+    schema:isPartOf pecha: ;
+    schema:name "Annex I - Key Performance Indicators (KPI) for Target Setting and Indicators for Monitoring" .
+
+pecha:art_22 a schema:Legislation ;
+    schema:isPartOf pecha: ;
+    schema:name "Establishment of the cost base for charges" .
+
+ses: a schema:Legislation ;
+    schema:datePublished "2024-11-11"^^xsd:date ;
+    schema:legislationDate "2024-10-23"^^xsd:date ;
+    schema:legislationIdentifier "32024R2803" ;
+    schema:name "Regulation (EU) 2024/2803 of the European Parliament and of the Council of 23 October 2024 on the implementation of the Single European Sky (recast)" .
+
+ses:AeronauticalInformationService a schema:DefinedTerm ;
+    schema:description "(2) ‘aeronautical information service’ or ‘AIS’ means a service, established within a defined area of coverage, responsible for the provision of aeronautical information and data necessary for the safety, regularity, and efficiency of air navigation." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "aeronautical information service" ;
+    schema:termCode "AIS" .
+
+ses:AirTrafficManagement a schema:DefinedTerm ;
+    schema:description "(9) ‘air traffic management’ or ‘ATM’ means the aggregation of the airborne and ground-based functions and services, namely air traffic services, airspace management and air traffic flow management, including flight procedures design, required to ensure the safe and efficient movement of aircraft during all phases of operations." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "air traffic management" ;
+    schema:termCode "ATM" .
+
+ses:CommunicationServices a schema:DefinedTerm ;
+    schema:description "(26) ‘communication services’ means aeronautical fixed and mobile services to enable ground-to-ground, air-to-ground and air-to-air communications for ATC purposes." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "communication services" ;
+    schema:termCode "COM" .
+
+ses:MeteorologicalServices a schema:DefinedTerm ;
+    schema:description "(44) ‘meteorological services for air navigation’ or ‘MET’ means the facilities and services that provide meteorological forecasts, warnings, briefings and observations for air navigation purposes, as well as any other meteorological information and data provided by States for aeronautical use." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "meteorological services for air navigation" ;
+    schema:termCode "MET" .
+
+ses:NavigationServices a schema:DefinedTerm ;
+    schema:description "(47) ‘navigation services’ means the facilities and services that provide aircraft with positioning and timing information." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "navigation services" ;
+    schema:termCode "NAV" .
+
+ses:SurveillanceServices a schema:DefinedTerm ;
+    schema:description "(63) ‘surveillance services’ means the facilities and services used to determine the respective positions of aircraft to allow safe separation." ;
+    schema:isPartOf ses:art_2 ;
+    schema:name "surveillance services" ;
+    schema:termCode "SUR" .
+
+pechar:207MeteorologicalServices a schema:DefinedTerm ;
+    schema:description "Letecká meteorologická služba (MET)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "207 Meteorological services" ;
+    skos:related ses:MeteorologicalServices ;
+    pechar:hasTopContributor pechar:1000_CS .
+
+pechar:209OtherStateCosts a schema:DefinedTerm ;
+    schema:description "Náklady EUROCONTROL (EUC) – eviduje členský příspěvek EUROCONTROL a poplatek za fakturaci"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "209 Other State costs" ;
+    pechar:hasTopContributor pechar:4210_FMaA .
+
+pechar:2120_AaACC a schema:DefinedTerm ;
+    schema:description "Organizational unit 2120 Approach and Aerodrome Control Centre"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2120 Approach and Aerodrome Control Centre" ;
+    pechar:deliversTo pechar:2111_ACC .
+
+pechar:2130_RAAS a schema:DefinedTerm ;
+    schema:description "Organizational unit 2130 Regional Airport ATM Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2130 Regional Airport ATM Services" ;
+    pechar:deliversTo pechar:2111_ACC .
+
+pecha: a schema:Legislation ;
+    schema:datePublished "2025-01-01"^^xsd:date ;
+    schema:legislationDate "2019-02-11"^^xsd:date ;
+    schema:legislationIdentifier "32019R0317" ;
+    schema:name "Commission Implementing Regulation (EU) 2019/317 of 11 February 2019 laying down a performance and charging scheme in the single European sky and repealing Implementing Regulations (EU) No 390/2013 and (EU) No 391/2013" .
+
+pechar:208SupervisionCosts a schema:DefinedTerm ;
+    schema:description "Náklady na státní dohled (SPV) – jedná se o novou položku, která eviduje náklady spojené s výkonem služeb za stát (plánování tratí, příprava map LIS, letové ověřování atd.)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "208 Supervision costs" ;
+    pechar:hasTopContributor pechar:2310_AMaS .
+
+pechar:7000_ATA a schema:DefinedTerm ;
+    schema:description "Organizational unit 7000 ATM Training Academy"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "7000 ATM Training Academy" ;
+    pechar:deliversTo pechar:1000_CS .
+
+pechar:CostsByNature a schema:DefinedTermSet ;
+    schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
+    schema:isPartOf pechar: ;
+    schema:name "Cost by Nature" .
+
+pechar:205SearchAndRescue a schema:DefinedTerm ;
+    schema:description "Pátrání a záchrana (SAR)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "205 Search and rescue" ;
+    pechar:hasTopContributor pechar:2112_RCC .
+
+pechar:2112_RCC a schema:DefinedTerm ;
+    schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2112 Rescue Coordination Centre (RCC)" .
+
+pechar:2300_APaD a schema:DefinedTerm ;
+    schema:description "Organizational unit 2300 ATM/ANS Planning and Development"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2300 ATM/ANS Planning and Development" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC .
+
+pechar:2000_ANOM a schema:DefinedTerm ;
+    schema:description "Organizational unit 2000 Air Navigation Operations Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2000 Air Navigation Operations Management" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2212_ATS .
+
+pechar:4210_FMaA a schema:DefinedTerm ;
+    schema:description "Organizational unit 4210 Financial Management and Accounting"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "4210 Financial Management and Accounting" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC .
+
+ses:art_2 a schema:Legislation ;
+    schema:isPartOf ses: ;
+    schema:name "Definitions" .
+
+pechar:2310_AMaS a schema:DefinedTerm ;
+    schema:description "Organizational unit 2310 ATM/ANS Methodology and Standards"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2310 ATM/ANS Methodology and Standards" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC .
+
+pechar:4110_HRM a schema:DefinedTerm ;
+    schema:description "Organizational unit 4110 Human Resources Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "4110 Human Resources Management" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2211_SaRS,
+        pechar:2212_ATS,
+        pechar:2213_NaRCS,
+        pechar:2410_AIM,
+        pechar:4210_FMaA .
+
+pechar:206AeronauticalInformation a schema:DefinedTerm ;
+    schema:description "Letecká informační služba (AIS)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "206 Aeronautical information" ;
+    skos:related ses:AeronauticalInformationService ;
+    pechar:hasTopContributor pechar:2410_AIM .
+
+pechar:2201_CIM a schema:DefinedTerm ;
+    schema:description "Organizational unit 2201 CNS/ATM Infrastructure Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2201 CNS/ATM Infrastructure Management" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2211_SaRS,
+        pechar:2212_ATS,
+        pechar:2213_NaRCS .
+
+pechar:2320_PMO a schema:DefinedTerm ;
+    schema:description "Organizational unit 2320 Project Management Office (PMO)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2320 Project Management Office (PMO)" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2211_SaRS,
+        pechar:2212_ATS,
+        pechar:2410_AIM .
+
+pechar:2410_AIM a schema:DefinedTerm ;
+    schema:description "Organizational unit 2410 ATM Information Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2410 ATM Information Management" ;
+    pechar:deliversTo pechar:2111_ACC .
+
+pechar:CostsByService a schema:DefinedTermSet ;
+    schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
+    schema:isPartOf pechar: ;
+    schema:name "Cost by Service" .
+
+pechar:203Navigation a schema:DefinedTerm ;
+    schema:description "Navigace (NAV)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "203 Navigation" ;
+    skos:related ses:NavigationServices ;
+    pechar:hasTopContributor pechar:2213_NaRCS .
+
+pechar:2213_NaRCS a schema:DefinedTerm ;
+    schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2213 Navigation and Radio Communication Services" ;
+    pechar:deliversTo pechar:2212_ATS .
+
+pechar:204Surveillance a schema:DefinedTerm ;
+    schema:description "Přehledová infrastruktura (SUR)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "204 Surveillance" ;
+    skos:related ses:SurveillanceServices ;
+    pechar:hasTopContributor pechar:2211_SaRS .
+
+pechar:2211_SaRS a schema:DefinedTerm ;
+    schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2211 Surveillance and Radar Services" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2212_ATS .
+
+pechar:4610_AaFM a schema:DefinedTerm ;
+    schema:description "Organizational unit 4610 Asset and Facility Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "4610 Asset and Facility Management" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2211_SaRS,
+        pechar:2212_ATS,
+        pechar:2213_NaRCS,
+        pechar:2410_AIM .
+
+pechar:202Communication a schema:DefinedTerm ;
+    schema:description "Komunikace (COM) - náklady spojené s provozem a údržbou komunikační infrastruktury pro poskytovaní LNS a náklady související."@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "202 Communication" ;
+    skos:related ses:CommunicationServices ;
+    pechar:hasTopContributor pechar:2212_ATS .
+
+pechar:2111_ACC a schema:DefinedTerm ;
+    schema:description "Organizational unit 2111 Area Control Centre (ACC)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2111 Area Control Centre (ACC)" .
+
+pechar:OrgUnits a schema:DefinedTermSet ;
+    schema:description "Organizational units of the European Commission"@en ;
+    schema:inDefinedTermSet pechar: ;
+    schema:name "Organizational Units" .
+
+pechar:2212_ATS a schema:DefinedTerm ;
+    schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2212 Aeronautical Telecommunications Services" ;
+    pechar:deliversTo pechar:1000_CS,
+        pechar:2111_ACC,
+        pechar:2112_RCC,
+        pechar:2211_SaRS,
+        pechar:2213_NaRCS,
+        pechar:2410_AIM .
+
+pechar:299IndirectCosts a schema:DefinedTerm ;
+    schema:description "Ostatní nerozlišené provozní náklady (OOC). FKSP (FXP)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "299 Indirect costs" ;
+    pechar:hasTopContributor pechar:1000_CS .
+
+pechar:cDepreciationCosts a schema:DefinedTerm ;
+    schema:description "Odpisy"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature ;
+    schema:name "c Depreciation Costs" .
+
+pechar:1000_CS a schema:DefinedTerm ;
+    schema:description "Organizational unit 1000 Corporate Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "1000 Corporate Services" ;
+    pechar:deliversTo pechar:2111_ACC,
+        pechar:2112_RCC,
+        pechar:2211_SaRS,
+        pechar:2212_ATS,
+        pechar:2213_NaRCS,
+        pechar:2310_AMaS,
+        pechar:2410_AIM .
+
+pechar:201AirTrafficManagement a schema:DefinedTerm ;
+    schema:description "Poskytování letových provozních služeb (ATM) – náklady spojené s vlastním poskytováním řízení letového provozu"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService ;
+    schema:name "201 Air Traffic Management" ;
+    skos:related ses:AirTrafficManagement ;
+    pechar:hasTopContributor pechar:2111_ACC .
+
+pechar:bOperatingCosts a schema:DefinedTerm ;
+    schema:description "Provozní náklady"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature ;
+    schema:name "b Operating Costs" .
+
+pechar:aStaffCosts a schema:DefinedTerm ;
+    schema:description "Náklady na zaměstnance"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature ;
+    schema:name "a Staff Costs" .
+

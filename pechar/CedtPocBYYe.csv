@@ -1,0 +1,126 @@
+Index,Service,OrganizationalUnit,CostType,AmountEUR,AmountEnRouteEUR,AmountTerminalEUR,AccountingPeriod
+bYYe001,201 Air Traffic Management,1000 Corporate Services,a Staff Costs,8752200,6867900,1884300,YYYY
+bYYe002,201 Air Traffic Management,1000 Corporate Services,b Operating Costs,624800,585300,39500,YYYY
+bYYe003,201 Air Traffic Management,1000 Corporate Services,c Depreciation Costs,18485100,15084600,3400500,YYYY
+bYYe004,201 Air Traffic Management,2000 Air Navigation Operations Management,a Staff Costs,549900,451300,98600,YYYY
+bYYe005,201 Air Traffic Management,2000 Air Navigation Operations Management,b Operating Costs,124100,121500,2600,YYYY
+bYYe006,201 Air Traffic Management,2111 Area Control Centre (ACC),a Staff Costs,35861500,35861500,0,YYYY
+bYYe007,201 Air Traffic Management,2111 Area Control Centre (ACC),b Operating Costs,15000,15000,0,YYYY
+bYYe008,201 Air Traffic Management,2111 Area Control Centre (ACC),c Depreciation Costs,2100,2100,0,YYYY
+bYYe009,201 Air Traffic Management,2120 Approach and Aerodrome Control Centre,a Staff Costs,20603400,9570700,11032700,YYYY
+bYYe010,201 Air Traffic Management,2120 Approach and Aerodrome Control Centre,b Operating Costs,15600,0,15600,YYYY
+bYYe011,201 Air Traffic Management,2130 Regional Airport ATM Services,a Staff Costs,5600400,2800200,2800200,YYYY
+bYYe012,201 Air Traffic Management,2130 Regional Airport ATM Services,b Operating Costs,19600,9800,9800,YYYY
+bYYe013,201 Air Traffic Management,2201 CNS/ATM Infrastructure Management,a Staff Costs,664600,332300,332300,YYYY
+bYYe014,201 Air Traffic Management,2201 CNS/ATM Infrastructure Management,b Operating Costs,178400,89200,89200,YYYY
+bYYe015,201 Air Traffic Management,2201 CNS/ATM Infrastructure Management,c Depreciation Costs,22600,11300,11300,YYYY
+bYYe016,201 Air Traffic Management,2211 Surveillance and Radar Services,a Staff Costs,464000,401400,62600,YYYY
+bYYe017,201 Air Traffic Management,2211 Surveillance and Radar Services,b Operating Costs,1802100,1488000,314100,YYYY
+bYYe018,201 Air Traffic Management,2212 Aeronautical Telecommunications Services,a Staff Costs,238800,132500,106300,YYYY
+bYYe019,201 Air Traffic Management,2212 Aeronautical Telecommunications Services,b Operating Costs,587700,499100,88600,YYYY
+bYYe020,201 Air Traffic Management,2212 Aeronautical Telecommunications Services,c Depreciation Costs,8900,8900,0,YYYY
+bYYe021,201 Air Traffic Management,2300 ATM/ANS Planning and Development,a Staff Costs,124000,111700,12300,YYYY
+bYYe022,201 Air Traffic Management,2300 ATM/ANS Planning and Development,b Operating Costs,286000,244000,42000,YYYY
+bYYe023,201 Air Traffic Management,2310 ATM/ANS Methodology and Standards,a Staff Costs,2309000,1416900,892100,YYYY
+bYYe024,201 Air Traffic Management,2310 ATM/ANS Methodology and Standards,b Operating Costs,249800,168100,81700,YYYY
+bYYe025,201 Air Traffic Management,2320 Project Management Office (PMO),a Staff Costs,1223300,995100,228200,YYYY
+bYYe026,201 Air Traffic Management,2320 Project Management Office (PMO),b Operating Costs,893400,695200,198200,YYYY
+bYYe027,201 Air Traffic Management,2320 Project Management Office (PMO),c Depreciation Costs,42100,42100,0,YYYY
+bYYe028,201 Air Traffic Management,2410 ATM Information Management,b Operating Costs,51800,44800,7000,YYYY
+bYYe029,201 Air Traffic Management,4110 Human Resources Management,a Staff Costs,203900,148500,55400,YYYY
+bYYe030,201 Air Traffic Management,4110 Human Resources Management,b Operating Costs,51200,43500,7700,YYYY
+bYYe031,201 Air Traffic Management,4210 Financial Management and Accounting,b Operating Costs,1406600,1406600,0,YYYY
+bYYe032,201 Air Traffic Management,4610 Asset and Facility Management,a Staff Costs,3759800,2856700,903100,YYYY
+bYYe033,201 Air Traffic Management,4610 Asset and Facility Management,b Operating Costs,5215800,4128600,1087200,YYYY
+bYYe034,201 Air Traffic Management,4610 Asset and Facility Management,c Depreciation Costs,2816800,2153300,663500,YYYY
+bYYe035,202 Communication,1000 Corporate Services,a Staff Costs,425400,349300,76100,YYYY
+bYYe036,202 Communication,1000 Corporate Services,c Depreciation Costs,2670500,2112700,557800,YYYY
+bYYe037,202 Communication,2000 Air Navigation Operations Management,a Staff Costs,274300,221700,52600,YYYY
+bYYe038,202 Communication,2201 CNS/ATM Infrastructure Management,a Staff Costs,483000,241500,241500,YYYY
+bYYe039,202 Communication,2201 CNS/ATM Infrastructure Management,c Depreciation Costs,93800,46900,46900,YYYY
+bYYe040,202 Communication,2211 Surveillance and Radar Services,b Operating Costs,64000,64000,0,YYYY
+bYYe041,202 Communication,2212 Aeronautical Telecommunications Services,a Staff Costs,3653100,3120400,532700,YYYY
+bYYe042,202 Communication,2212 Aeronautical Telecommunications Services,b Operating Costs,1964700,1610600,354100,YYYY
+bYYe043,202 Communication,2212 Aeronautical Telecommunications Services,c Depreciation Costs,205800,173200,32600,YYYY
+bYYe044,202 Communication,2213 Navigation and Radio Communication Services,a Staff Costs,97900,83900,14000,YYYY
+bYYe045,202 Communication,2213 Navigation and Radio Communication Services,b Operating Costs,55000,48400,6600,YYYY
+bYYe046,202 Communication,2213 Navigation and Radio Communication Services,c Depreciation Costs,121600,103400,18200,YYYY
+bYYe047,202 Communication,2320 Project Management Office (PMO),a Staff Costs,364400,319200,45200,YYYY
+bYYe048,202 Communication,2320 Project Management Office (PMO),b Operating Costs,13500,13500,0,YYYY
+bYYe049,202 Communication,4110 Human Resources Management,a Staff Costs,8300,8300,0,YYYY
+bYYe050,202 Communication,4610 Asset and Facility Management,b Operating Costs,58100,53900,4200,YYYY
+bYYe051,202 Communication,4610 Asset and Facility Management,c Depreciation Costs,16600,8300,8300,YYYY
+bYYe052,203 Navigation,1000 Corporate Services,a Staff Costs,297800,244200,53600,YYYY
+bYYe053,203 Navigation,1000 Corporate Services,c Depreciation Costs,1213200,822000,391200,YYYY
+bYYe054,203 Navigation,2201 CNS/ATM Infrastructure Management,a Staff Costs,85000,42500,42500,YYYY
+bYYe055,203 Navigation,2201 CNS/ATM Infrastructure Management,c Depreciation Costs,4600,2300,2300,YYYY
+bYYe056,203 Navigation,2212 Aeronautical Telecommunications Services,b Operating Costs,4000,4000,0,YYYY
+bYYe057,203 Navigation,2213 Navigation and Radio Communication Services,a Staff Costs,3003000,2491000,512000,YYYY
+bYYe058,203 Navigation,2213 Navigation and Radio Communication Services,b Operating Costs,308200,259000,49200,YYYY
+bYYe059,203 Navigation,2213 Navigation and Radio Communication Services,c Depreciation Costs,11200,11200,0,YYYY
+bYYe060,203 Navigation,4110 Human Resources Management,a Staff Costs,6600,6600,0,YYYY
+bYYe061,203 Navigation,4610 Asset and Facility Management,a Staff Costs,41900,31400,10500,YYYY
+bYYe062,203 Navigation,4610 Asset and Facility Management,b Operating Costs,227500,176900,50600,YYYY
+bYYe063,203 Navigation,4610 Asset and Facility Management,c Depreciation Costs,124700,82800,41900,YYYY
+bYYe064,204 Surveillance,1000 Corporate Services,a Staff Costs,758000,590400,167600,YYYY
+bYYe065,204 Surveillance,1000 Corporate Services,c Depreciation Costs,1790400,1726100,64300,YYYY
+bYYe066,204 Surveillance,2201 CNS/ATM Infrastructure Management,a Staff Costs,1003800,501900,501900,YYYY
+bYYe067,204 Surveillance,2201 CNS/ATM Infrastructure Management,b Operating Costs,108600,54300,54300,YYYY
+bYYe068,204 Surveillance,2211 Surveillance and Radar Services,a Staff Costs,3996500,3449800,546700,YYYY
+bYYe069,204 Surveillance,2211 Surveillance and Radar Services,b Operating Costs,835400,643800,191600,YYYY
+bYYe070,204 Surveillance,2211 Surveillance and Radar Services,c Depreciation Costs,7600,0,7600,YYYY
+bYYe071,204 Surveillance,2212 Aeronautical Telecommunications Services,b Operating Costs,239700,179100,60600,YYYY
+bYYe072,204 Surveillance,2320 Project Management Office (PMO),a Staff Costs,528600,410200,118400,YYYY
+bYYe073,204 Surveillance,2320 Project Management Office (PMO),b Operating Costs,15400,4000,11400,YYYY
+bYYe074,204 Surveillance,4110 Human Resources Management,a Staff Costs,16200,16200,0,YYYY
+bYYe075,204 Surveillance,4610 Asset and Facility Management,a Staff Costs,75300,75300,0,YYYY
+bYYe076,204 Surveillance,4610 Asset and Facility Management,b Operating Costs,463800,459000,4800,YYYY
+bYYe077,204 Surveillance,4610 Asset and Facility Management,c Depreciation Costs,237100,237100,0,YYYY
+bYYe078,205 Search and rescue,1000 Corporate Services,a Staff Costs,53500,53500,0,YYYY
+bYYe079,205 Search and rescue,1000 Corporate Services,c Depreciation Costs,7000,7000,0,YYYY
+bYYe080,205 Search and rescue,2112 Rescue Coordination Centre (RCC),a Staff Costs,666400,666400,0,YYYY
+bYYe081,205 Search and rescue,2212 Aeronautical Telecommunications Services,b Operating Costs,2900,2900,0,YYYY
+bYYe082,206 Aeronautical information,1000 Corporate Services,a Staff Costs,270400,178400,92000,YYYY
+bYYe083,206 Aeronautical information,1000 Corporate Services,c Depreciation Costs,534900,353000,181900,YYYY
+bYYe084,206 Aeronautical information,2212 Aeronautical Telecommunications Services,b Operating Costs,88600,58500,30100,YYYY
+bYYe085,206 Aeronautical information,2212 Aeronautical Telecommunications Services,c Depreciation Costs,6400,4200,2200,YYYY
+bYYe086,206 Aeronautical information,2320 Project Management Office (PMO),a Staff Costs,98100,64700,33400,YYYY
+bYYe087,206 Aeronautical information,2410 ATM Information Management,a Staff Costs,3011000,1987400,1023600,YYYY
+bYYe088,206 Aeronautical information,2410 ATM Information Management,b Operating Costs,281100,185500,95600,YYYY
+bYYe089,206 Aeronautical information,2410 ATM Information Management,c Depreciation Costs,3300,2200,1100,YYYY
+bYYe090,206 Aeronautical information,4110 Human Resources Management,a Staff Costs,15300,10100,5200,YYYY
+bYYe091,206 Aeronautical information,4610 Asset and Facility Management,c Depreciation Costs,4000,2600,1400,YYYY
+bYYe092,207 Meteorological services,1000 Corporate Services,c Depreciation Costs,76100,69200,6900,YYYY
+bYYe093,207 Meteorological services,2211 Surveillance and Radar Services,b Operating Costs,9400,9400,0,YYYY
+bYYe094,208 Supervision costs,1000 Corporate Services,a Staff Costs,10900,10900,0,YYYY
+bYYe095,208 Supervision costs,2310 ATM/ANS Methodology and Standards,a Staff Costs,179600,158300,21300,YYYY
+bYYe096,208 Supervision costs,2310 ATM/ANS Methodology and Standards,b Operating Costs,30000,30000,0,YYYY
+bYYe097,209 Other State costs,4110 Human Resources Management,b Operating Costs,559400,559400,0,YYYY
+bYYe098,209 Other State costs,4210 Financial Management and Accounting,b Operating Costs,8313500,8313500,0,YYYY
+bYYe099,299 Indirect costs,1000 Corporate Services,a Staff Costs,6969800,5988900,980900,YYYY
+bYYe100,299 Indirect costs,1000 Corporate Services,b Operating Costs,2331600,2005200,326400,YYYY
+bYYe101,299 Indirect costs,1000 Corporate Services,c Depreciation Costs,4337000,3729800,607200,YYYY
+bYYe102,299 Indirect costs,2000 Air Navigation Operations Management,a Staff Costs,2468900,2123200,345700,YYYY
+bYYe103,299 Indirect costs,2000 Air Navigation Operations Management,b Operating Costs,200300,172400,27900,YYYY
+bYYe104,299 Indirect costs,2000 Air Navigation Operations Management,c Depreciation Costs,2300,2000,300,YYYY
+bYYe105,299 Indirect costs,2201 CNS/ATM Infrastructure Management,b Operating Costs,48000,41300,6700,YYYY
+bYYe106,299 Indirect costs,2211 Surveillance and Radar Services,b Operating Costs,209700,180300,29400,YYYY
+bYYe107,299 Indirect costs,2212 Aeronautical Telecommunications Services,a Staff Costs,177700,152900,24800,YYYY
+bYYe108,299 Indirect costs,2212 Aeronautical Telecommunications Services,b Operating Costs,178100,153200,24900,YYYY
+bYYe109,299 Indirect costs,2212 Aeronautical Telecommunications Services,c Depreciation Costs,29900,25700,4200,YYYY
+bYYe110,299 Indirect costs,2300 ATM/ANS Planning and Development,a Staff Costs,344100,296000,48100,YYYY
+bYYe111,299 Indirect costs,2300 ATM/ANS Planning and Development,b Operating Costs,90200,77500,12700,YYYY
+bYYe112,299 Indirect costs,2310 ATM/ANS Methodology and Standards,a Staff Costs,1783100,1533400,249700,YYYY
+bYYe113,299 Indirect costs,2310 ATM/ANS Methodology and Standards,b Operating Costs,52500,45000,7500,YYYY
+bYYe114,299 Indirect costs,2320 Project Management Office (PMO),a Staff Costs,2281900,1914000,367900,YYYY
+bYYe115,299 Indirect costs,2320 Project Management Office (PMO),b Operating Costs,163500,140900,22600,YYYY
+bYYe116,299 Indirect costs,4110 Human Resources Management,a Staff Costs,1699500,1461600,237900,YYYY
+bYYe117,299 Indirect costs,4110 Human Resources Management,b Operating Costs,1468700,1263400,205300,YYYY
+bYYe118,299 Indirect costs,4210 Financial Management and Accounting,a Staff Costs,1957500,1683400,274100,YYYY
+bYYe119,299 Indirect costs,4210 Financial Management and Accounting,b Operating Costs,658200,566000,92200,YYYY
+bYYe120,299 Indirect costs,4610 Asset and Facility Management,a Staff Costs,2475400,2128900,346500,YYYY
+bYYe121,299 Indirect costs,4610 Asset and Facility Management,b Operating Costs,1650000,1419100,230900,YYYY
+bYYe122,299 Indirect costs,4610 Asset and Facility Management,c Depreciation Costs,405700,348600,57100,YYYY
+bYYe123,299 Indirect costs,7000 ATM Training Academy,a Staff Costs,5723200,4922000,801200,YYYY
+bYYe124,299 Indirect costs,7000 ATM Training Academy,b Operating Costs,1983900,1706100,277800,YYYY
+bYYe125,299 Indirect costs,7000 ATM Training Academy,c Depreciation Costs,341500,293700,47800,YYYY

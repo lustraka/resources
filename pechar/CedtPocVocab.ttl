@@ -1,0 +1,273 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ses: <https://eur-lex.europa.eu/eli/reg/2024/2803/oj/> .
+@prefix pecha: <http://data.europa.eu/eli/reg_impl/2019/317#> .
+@prefix pechar: <https://lustraka.github.io/resources/pechar/> .
+
+ses: a schema:Legislation ;
+    schema:name "Regulation (EU) 2024/2803 of the European Parliament and of the Council of 23 October 2024 on the implementation of the Single European Sky (recast)" ;
+    schema:legislationIdentifier "32024R2803" ;
+    schema:legislationDate "2024-10-23"^^xsd:date ;
+    schema:datePublished "2024-11-11"^^xsd:date .
+
+ses:art_2 a schema:Legislation ;
+    schema:name "Definitions" ;
+    schema:isPartOf ses: .
+
+ses:AirNavigationServices a schema:DefinedTerm ;
+    schema:name "air navigation services" ;
+    schema:termCode "ANS" ;
+    schema:description "(5) ‘air navigation services’ or ‘ANS’ means air traffic services; communication, navigation and surveillance services (CNS) including services which augment signals emitted by satellites of core constellations of GNSS for the purpose of air navigation; meteorological services for air navigation (MET); aeronautical information services (AIS); and air traffic data services (ADS)." ;
+    schema:isPartOf ses:art_2 .
+
+ses:AirTrafficManagement a schema:DefinedTerm ;
+    schema:name "air traffic management" ;
+    schema:termCode "ATM" ;
+    schema:description "(9) ‘air traffic management’ or ‘ATM’ means the aggregation of the airborne and ground-based functions and services, namely air traffic services, airspace management and air traffic flow management, including flight procedures design, required to ensure the safe and efficient movement of aircraft during all phases of operations." ;
+    schema:isPartOf ses:art_2 .
+
+ses:CommunicationServices a schema:DefinedTerm ;
+    schema:name "communication services" ;
+    schema:termCode "COM" ;
+    schema:description "(26) ‘communication services’ means aeronautical fixed and mobile services to enable ground-to-ground, air-to-ground and air-to-air communications for ATC purposes." ;
+    schema:isPartOf ses:art_2 .
+
+ses:NavigationServices a schema:DefinedTerm ;
+    schema:name "navigation services" ;
+    schema:termCode "NAV" ;
+    schema:description "(47) ‘navigation services’ means the facilities and services that provide aircraft with positioning and timing information." ;
+    schema:isPartOf ses:art_2 .
+
+ses:SurveillanceServices a schema:DefinedTerm ;
+    schema:name "surveillance services" ;
+    schema:termCode "SUR" ;
+    schema:description "(63) ‘surveillance services’ means the facilities and services used to determine the respective positions of aircraft to allow safe separation." ;
+    schema:isPartOf ses:art_2 .
+
+ses:AeronauticalInformationService a schema:DefinedTerm ;
+    schema:name "aeronautical information service" ;
+    schema:termCode "AIS" ;
+    schema:description "(2) ‘aeronautical information service’ or ‘AIS’ means a service, established within a defined area of coverage, responsible for the provision of aeronautical information and data necessary for the safety, regularity, and efficiency of air navigation." ;
+    schema:isPartOf ses:art_2 .
+
+ses:MeteorologicalServices a schema:DefinedTerm ;
+    schema:name "meteorological services for air navigation" ;
+    schema:termCode "MET" ;
+    schema:description "(44) ‘meteorological services for air navigation’ or ‘MET’ means the facilities and services that provide meteorological forecasts, warnings, briefings and observations for air navigation purposes, as well as any other meteorological information and data provided by States for aeronautical use." ;
+    schema:isPartOf ses:art_2 .
+
+pecha: a schema:Legislation ;
+    schema:name "Commission Implementing Regulation (EU) 2019/317 of 11 February 2019 laying down a performance and charging scheme in the single European sky and repealing Implementing Regulations (EU) No 390/2013 and (EU) No 391/2013" ;
+    schema:legislationIdentifier "32019R0317" ;
+    schema:legislationDate "2019-02-11"^^xsd:date ;
+    schema:datePublished "2025-01-01"^^xsd:date .
+
+# Article 8
+pecha:art_8 a schema:Legislation ;
+    schema:name "Key performance indicators and indicators for monitoring" ;
+    schema:text "... 2. The key performance indicators and the indicators for monitoring the performance of air navigation services at national level or at the level of functional airspace blocks shall be those established in Section 2 of Annex I. ..." ;
+    schema:isPartOf pecha: .
+
+# Article 22
+pecha:art_22 a schema:Legislation ;
+    schema:name "Establishment of the cost base for charges" ;
+    schema:isPartOf pecha: .
+
+# Article 22, Paragraph 4
+pecha:art_22_para_4 a schema:Legislation ;
+    schema:text "4. The determined costs included in the cost bases for en route and terminal charges shall consist of: (a) staff costs; (b) operating costs other than staff costs; (c) depreciation costs; (d) cost of capital; (e)  exceptional costs; ..."  ;
+    schema:isPartOf pecha:art_22 .
+
+# Annex I
+pecha:anx_I a schema:Legislation ;
+    schema:name "Annex I - Key Performance Indicators (KPI) for Target Setting and Indicators for Monitoring" ;
+    schema:isPartOf pecha: .
+
+# Annex I, Section 2, Point 4.1
+pecha:anx_I_sec_2_point_4_1 a schema:Legislation ;
+    schema:name "Key performance indicators" ;
+    schema:text "(a) The DUC for en route air navigation services, calculated as follows: (i) the ratio between the en route determined costs and the forecast traffic in the charging zone, expressed in en route service units, expected during each year of the reference period at local level, contained in the performance plans; (ii) expressed in real terms and in national currency; (iii) calculated for the whole calendar year and for each year of the reference period. (b) The DUC for terminal air navigation services, calculated as follows: (i) the ratio between the determined costs and the forecast traffic, expressed in terminal service units, expected during each year of the reference period at local level, contained in the performance plans; (ii) expressed in real terms and in national currency; (iii) calculated for the whole calendar year and for each year of the reference period. For the purposes of the indicators set out in points (a) and (b), ‘local’ means at charging zone level." ;
+    schema:isPartOf pecha:anx_I .
+
+# Cost by Service
+pechar:CostsByService a schema:DefinedTermSet ;
+    schema:name "Cost by Service" ;
+    schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
+    schema:isPartOf pechar: .
+
+pechar:201AirTrafficManagement a schema:DefinedTerm ;
+    schema:name "201 Air Traffic Management" ;
+    schema:description "Poskytování letových provozních služeb (ATM) – náklady spojené s vlastním poskytováním řízení letového provozu"@cs ;
+    skos:related ses:AirTrafficManagement ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:202Communication a schema:DefinedTerm ;
+    schema:name "202 Communication" ;
+    schema:description "Komunikace (COM) - náklady spojené s provozem a údržbou komunikační infrastruktury pro poskytovaní LNS a náklady související."@cs ;
+    skos:related ses:CommunicationServices ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:203Navigation a schema:DefinedTerm ;
+    schema:name "203 Navigation" ;
+    schema:description "Navigace (NAV)"@cs ;
+    skos:related ses:NavigationServices ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:204Surveillance a schema:DefinedTerm ;
+    schema:name "204 Surveillance" ;
+    schema:description "Přehledová infrastruktura (SUR)"@cs ;
+    skos:related ses:SurveillanceServices ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:205SearchAndRescue a schema:DefinedTerm ;
+    schema:name "205 Search and rescue" ;
+    schema:description "Pátrání a záchrana (SAR)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:206AeronauticalInformation a schema:DefinedTerm ;
+    schema:name "206 Aeronautical information" ;
+    schema:description "Letecká informační služba (AIS)"@cs ;
+    skos:related ses:AeronauticalInformationService ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:207MeteorologicalServices a schema:DefinedTerm ;
+    schema:name "207 Meteorological services" ;
+    schema:description "Letecká meteorologická služba (MET)"@cs ;
+    skos:related ses:MeteorologicalServices ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:208SupervisionCosts a schema:DefinedTerm ;
+    schema:name "208 Supervision costs" ;
+    schema:description "Náklady na státní dohled (SPV) – jedná se o novou položku, která eviduje náklady spojené s výkonem služeb za stát (plánování tratí, příprava map LIS, letové ověřování atd.)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:209OtherStateCosts a schema:DefinedTerm ;
+    schema:name "209 Other State costs" ;
+    schema:description "Náklady EUROCONTROL (EUC) – eviduje členský příspěvek EUROCONTROL a poplatek za fakturaci"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+pechar:299IndirectCosts a schema:DefinedTerm ;
+    schema:name "299 Indirect costs" ;
+    schema:description "Ostatní nerozlišené provozní náklady (OOC). FKSP (FXP)"@cs ;
+    schema:inDefinedTermSet pechar:CostsByService .
+
+# Cost by Nature
+pechar:CostsByNature a schema:DefinedTermSet ;
+    schema:name "Cost by Nature" ;
+    schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
+    schema:isPartOf pechar: .
+
+pechar:aStaffCosts a schema:DefinedTerm ;
+    schema:name "a Staff Costs" ;
+    schema:description "Náklady na zaměstnance"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature .
+
+pechar:bOperatingCosts a schema:DefinedTerm ;
+    schema:name "b Operating Costs" ;
+    schema:description "Provozní náklady"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature .
+
+pechar:cDepreciationCosts a schema:DefinedTerm ;
+    schema:name "c Depreciation Costs" ;
+    schema:description "Odpisy"@cs ;
+    schema:inDefinedTermSet pechar:CostsByNature .
+
+# Vocabulary of Organizational Units
+pechar:OrgUnits a schema:DefinedTermSet ;
+    schema:name "Organizational Units" ;
+    schema:description "Organizational units of the European Commission"@en ;
+    schema:inDefinedTermSet pechar: .
+
+
+        pechar:1000_CS a schema:DefinedTerm ;
+            schema:name "1000 Corporate Services" ;
+            schema:description "Organizational unit 1000 Corporate Services"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2000_ANOM a schema:DefinedTerm ;
+            schema:name "2000 Air Navigation Operations Management" ;
+            schema:description "Organizational unit 2000 Air Navigation Operations Management"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2111_ACC a schema:DefinedTerm ;
+            schema:name "2111 Area Control Centre (ACC)" ;
+            schema:description "Organizational unit 2111 Area Control Centre (ACC)"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2120_AaACC a schema:DefinedTerm ;
+            schema:name "2120 Approach and Aerodrome Control Centre" ;
+            schema:description "Organizational unit 2120 Approach and Aerodrome Control Centre"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2130_RAAS a schema:DefinedTerm ;
+            schema:name "2130 Regional Airport ATM Services" ;
+            schema:description "Organizational unit 2130 Regional Airport ATM Services"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2201_CIM a schema:DefinedTerm ;
+            schema:name "2201 CNS/ATM Infrastructure Management" ;
+            schema:description "Organizational unit 2201 CNS/ATM Infrastructure Management"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2211_SaRS a schema:DefinedTerm ;
+            schema:name "2211 Surveillance and Radar Services" ;
+            schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2212_ATS a schema:DefinedTerm ;
+            schema:name "2212 Aeronautical Telecommunications Services" ;
+            schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2300_APaD a schema:DefinedTerm ;
+            schema:name "2300 ATM/ANS Planning and Development" ;
+            schema:description "Organizational unit 2300 ATM/ANS Planning and Development"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2310_AMaS a schema:DefinedTerm ;
+            schema:name "2310 ATM/ANS Methodology and Standards" ;
+            schema:description "Organizational unit 2310 ATM/ANS Methodology and Standards"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2320_PMO a schema:DefinedTerm ;
+            schema:name "2320 Project Management Office (PMO)" ;
+            schema:description "Organizational unit 2320 Project Management Office (PMO)"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2410_AIM a schema:DefinedTerm ;
+            schema:name "2410 ATM Information Management" ;
+            schema:description "Organizational unit 2410 ATM Information Management"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:4110_HRM a schema:DefinedTerm ;
+            schema:name "4110 Human Resources Management" ;
+            schema:description "Organizational unit 4110 Human Resources Management"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:4210_FMaA a schema:DefinedTerm ;
+            schema:name "4210 Financial Management and Accounting" ;
+            schema:description "Organizational unit 4210 Financial Management and Accounting"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:4610_AaFM a schema:DefinedTerm ;
+            schema:name "4610 Asset and Facility Management" ;
+            schema:description "Organizational unit 4610 Asset and Facility Management"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2213_NaRCS a schema:DefinedTerm ;
+            schema:name "2213 Navigation and Radio Communication Services" ;
+            schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:2112_RCC a schema:DefinedTerm ;
+            schema:name "2112 Rescue Coordination Centre (RCC)" ;
+            schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
+        pechar:7000_ATA a schema:DefinedTerm ;
+            schema:name "7000 ATM Training Academy" ;
+            schema:description "Organizational unit 7000 ATM Training Academy"@en ;
+            schema:inDefinedTermSet pechar:OrgUnits.
+        
