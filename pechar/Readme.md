@@ -49,7 +49,7 @@ Artifact | Description
 - Graph reasoning supports SPARQL 1.1 and OWL 2 DL.
 - Please cite as:
 
-```
+```bibtex
 @misc{straka2025coedit,
   author = {Straka, Lubomír},
   title = {Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins},
