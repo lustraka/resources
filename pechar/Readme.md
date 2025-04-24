@@ -1,6 +1,6 @@
 # Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins
 
-> 'pechar' = **Pe**rformance and **Cha**rging research **R**esources.
+> 'pechar' = **Pe**rformance and **Cha**rging research **R**esources
 
 ## 1. Epistemic Intent and Thematic Scope
 
@@ -35,17 +35,12 @@ All materials align with the FAIR principles (Findable, Accessible, Interoperabl
 
 The following core artifacts are included:
 
-- `[CedtPocBYYe.csv](CedtPocBYYe.csv)`  
-  *Constructed fiscal data aligned with EU IR317, serving as the empirical anchor.*
-
-- `[CedtPocVocab.ttl](CedtPocVocab.ttl)`  
-  *Provisional RDF schema capturing early commitments and concepts.*
-
-- `[CedtPocBYYe.ttl](CedtPocBYYe.ttl)`  
-  *Commitment-based enterprise knowledge graph — the principal semantic artifact emerging from this proof-of-concept.*
-
-- `[CedtPoc.ipynb](CedtPoc.ipynb)`  
-  *Python notebook for semantic lifting, rule-based enrichment, and RDF graph construction.*
+Artifact | Description
+-|-
+[`CedtPocBYYe.csv`](CedtPocBYYe.csv)| *Constructed fiscal data aligned with EU IR317, serving as the empirical anchor.*
+[`CedtPocVocab.ttl`](CedtPocVocab.ttl)| *Provisional RDF schema capturing early commitments and concepts.*
+[`CedtPocBYYe.ttl`](CedtPocBYYe.ttl)| *Commitment-based enterprise knowledge graph — the principal semantic artifact emerging from this proof-of-concept.*
+[`CedtPoc.ipynb`](CedtPoc.ipynb)| *Python notebook for semantic lifting, rule-based enrichment, and RDF graph construction.*
 
 ## 4. Provenance, Accessibility, and Reusability
 
@@ -54,10 +49,14 @@ The following core artifacts are included:
 - Graph reasoning supports SPARQL 1.1 and OWL 2 DL.
 - Please cite as:
 
-```bibtex
+```
 @misc{straka2025coedit,
   author = {Straka, Lubomír},
   title = {Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins},
   year = {2025},
   url = {https://lustraka.github.io/resources/pechar/}
 }
+
+----
+
+Updated 2025-04-24
