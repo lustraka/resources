@@ -24,8 +24,8 @@ The versioning roadmap is outlined below:
 
 | Version     | Purpose                         | Status              |
 |-------------|----------------------------------|---------------------|
-| `v0.7`      | Departmental critical review     | _Current_           |
-| `v0.8`      | Journal submission (peer review) | _To Be Decided_    |
+| `v0.7`      | Departmental critical review     | _Done_           |
+| `v0.8`      | Journal submission (peer review) | _In Review_    |
 | `v0.9`      | Accepted version for publication | _To Be Decided_     |
 | `v1.0`      | Final archival version post-publication | _To Be Decided_     |
 
