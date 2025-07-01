@@ -1,4 +1,4 @@
-# CoEDiT: Budget-to-Network Episode
+# CoEDiT: Budget-to-Network Challenge
 
 > 'CoEDiT' = **Co**mmitment-driven **E**nterprise **Di**gital **T**win
 >
@@ -14,10 +14,10 @@ This repository contains data and modeling artifacts for CoEDiT—a commitment-d
 | File | Description | Format | Standards |
 |-|-|-|-|
 | [`Input_bYYe.csv`](Input_bYYe.csv) | Fictionalized budget entries | CSV | EU IR 2019/317 |
-| [`Input_bYYe_Vocabulary.ttl`](Input_bYYe_Vocabulary.ttl) | Controlled vocabulary for entity recognition | RDF/Turtle | SKOS, schema, fUFO |
-| [`Output_bYYe.ttl`](Output_bYYe.ttl) | An RDF knowledge graph representing inferred institutional commitments | RDF/Turtle | SKOS, schema, fUFO |
+| [`Input_bYYe_Vocabulary.ttl`](Input_bYYe_Vocabulary.ttl) | Controlled vocabulary for entity recognition and semantic alignment | RDF/Turtle | SKOS, schema, gUFO |
+| [`Output_bYYe.ttl`](Output_bYYe.ttl) | An RDF knowledge graph encoding budgetary data as ontologically grounded social commitments | RDF/Turtle | SKOS, schema, gUFO |
 | [`PoEM_bYYe_deliversTo.png`](PoEM_bYYe_deliversTo.png) | Inferred coordination network | PNG | n/a |
-| [`CoEDiT_Budget_Demo.ipynb`](CoEDiT_Budget_Demo.ipynb)<br>(see [html here](CoEDiT_Budget_Demo.html)) | Python heuristics & visualization | Jupyter Notebook | pandas, rdflib |
+| [`CoEDiT_Budget_Demo.ipynb`](CoEDiT_Budget_Demo.ipynb)<br>(see [html version](CoEDiT_Budget_Demo.html) here) | Python heuristics & visualization | Jupyter Notebook | pandas, rdflib |
 
 ## How to Reuse
 
@@ -36,7 +36,7 @@ These artifacts can be reused for modeling exercises, institutional diagnostics,
 ```bibtex
 @misc{straka2025pechar,
   author = {Straka, Lubomír},
-  title = {Toward Commitment-Driven Enterprise Digital Twins: Budget-to-Network Episode},
+  title = {Toward Commitment-Driven Enterprise Digital Twins: Budget-to-Network Challenge},
   year = {2025},
   url = {https://lustraka.github.io/resources/pechar/}
 }
