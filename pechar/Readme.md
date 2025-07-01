@@ -10,13 +10,14 @@
 This repository contains data and modeling artifacts for CoEDiT—a commitment-driven enterprise digital twin. It reframes budget spreadsheets as commitment networks through a reflexive modeling loop grounded in ontology and semantics.
 
 ## FAIR Artifacts
+
 | File | Description | Format | Standards |
-|------|-------------|--------|-----------|
+|-|-|-|-|
 | [`Input_bYYe.csv`](Input_bYYe.csv) | Fictionalized budget entries | CSV | EU IR 2019/317 |
 | [`Input_bYYe_Vocabulary.ttl`](Input_bYYe_Vocabulary.ttl) | Controlled vocabulary for entity recognition | RDF/Turtle | SKOS, schema, fUFO |
 | [`Output_bYYe.ttl`](Output_bYYe.ttl) | An RDF knowledge graph representing inferred institutional commitments | RDF/Turtle | SKOS, schema, fUFO |
 | [`PoEM_bYYe_deliversTo.png`](PoEM_bYYe_deliversTo.png) | Inferred coordination network | PNG | n/a |
-| [`CoEDiT_Budget_Demo.ipynb`](CoEDiT_Budget_Demo.ipynb) | Python heuristics & visualization | Jupyter Notebook | pandas, rdflib |
+| [`CoEDiT_Budget_Demo.ipynb`](CoEDiT_Budget_Demo.ipynb)<br>(see [html here](CoEDiT_Budget_Demo.html)) | Python heuristics & visualization | Jupyter Notebook | pandas, rdflib |
 
 ## How to Reuse
 
