@@ -1,3 +1,4 @@
+@prefix gufo: <http://purl.org/nemo/gufo#> .
 @prefix pecha: <http://data.europa.eu/eli/reg_impl/2019/317#> .
 @prefix pechar: <https://lustraka.github.io/resources/pechar/> .
 @prefix schema: <http://schema.org/> .
@@ -25,7 +26,8 @@ ses:AirNavigationServices a schema:DefinedTerm ;
     schema:name "air navigation services" ;
     schema:termCode "ANS" .
 
-pechar:bYYe001 a pechar:BudgetEntry ;
+pechar:bYYe001 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 8752200 ;
     pechar:AmountEnRouteEUR 6867900 ;
@@ -34,7 +36,8 @@ pechar:bYYe001 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe002 a pechar:BudgetEntry ;
+pechar:bYYe002 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 624800 ;
     pechar:AmountEnRouteEUR 585300 ;
@@ -43,7 +46,8 @@ pechar:bYYe002 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe003 a pechar:BudgetEntry ;
+pechar:bYYe003 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 18485100 ;
     pechar:AmountEnRouteEUR 15084600 ;
@@ -52,7 +56,8 @@ pechar:bYYe003 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe004 a pechar:BudgetEntry ;
+pechar:bYYe004 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 549900 ;
     pechar:AmountEnRouteEUR 451300 ;
@@ -61,7 +66,8 @@ pechar:bYYe004 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe005 a pechar:BudgetEntry ;
+pechar:bYYe005 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 124100 ;
     pechar:AmountEnRouteEUR 121500 ;
@@ -70,7 +76,8 @@ pechar:bYYe005 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe006 a pechar:BudgetEntry ;
+pechar:bYYe006 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 35861500 ;
     pechar:AmountEnRouteEUR 35861500 ;
@@ -79,7 +86,8 @@ pechar:bYYe006 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2111_ACC ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe007 a pechar:BudgetEntry ;
+pechar:bYYe007 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 15000 ;
     pechar:AmountEnRouteEUR 15000 ;
@@ -88,7 +96,8 @@ pechar:bYYe007 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2111_ACC ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe008 a pechar:BudgetEntry ;
+pechar:bYYe008 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2100 ;
     pechar:AmountEnRouteEUR 2100 ;
@@ -97,7 +106,8 @@ pechar:bYYe008 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2111_ACC ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe009 a pechar:BudgetEntry ;
+pechar:bYYe009 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 20603400 ;
     pechar:AmountEnRouteEUR 9570700 ;
@@ -106,7 +116,8 @@ pechar:bYYe009 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2120_AaACC ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe010 a pechar:BudgetEntry ;
+pechar:bYYe010 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 15600 ;
     pechar:AmountEnRouteEUR 0 ;
@@ -115,7 +126,8 @@ pechar:bYYe010 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2120_AaACC ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe011 a pechar:BudgetEntry ;
+pechar:bYYe011 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 5600400 ;
     pechar:AmountEnRouteEUR 2800200 ;
@@ -124,7 +136,8 @@ pechar:bYYe011 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2130_RAAS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe012 a pechar:BudgetEntry ;
+pechar:bYYe012 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 19600 ;
     pechar:AmountEnRouteEUR 9800 ;
@@ -133,7 +146,8 @@ pechar:bYYe012 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2130_RAAS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe013 a pechar:BudgetEntry ;
+pechar:bYYe013 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 664600 ;
     pechar:AmountEnRouteEUR 332300 ;
@@ -142,7 +156,8 @@ pechar:bYYe013 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe014 a pechar:BudgetEntry ;
+pechar:bYYe014 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 178400 ;
     pechar:AmountEnRouteEUR 89200 ;
@@ -151,7 +166,8 @@ pechar:bYYe014 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe015 a pechar:BudgetEntry ;
+pechar:bYYe015 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 22600 ;
     pechar:AmountEnRouteEUR 11300 ;
@@ -160,7 +176,8 @@ pechar:bYYe015 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe016 a pechar:BudgetEntry ;
+pechar:bYYe016 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 464000 ;
     pechar:AmountEnRouteEUR 401400 ;
@@ -169,7 +186,8 @@ pechar:bYYe016 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe017 a pechar:BudgetEntry ;
+pechar:bYYe017 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1802100 ;
     pechar:AmountEnRouteEUR 1488000 ;
@@ -178,7 +196,8 @@ pechar:bYYe017 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe018 a pechar:BudgetEntry ;
+pechar:bYYe018 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 238800 ;
     pechar:AmountEnRouteEUR 132500 ;
@@ -187,7 +206,8 @@ pechar:bYYe018 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe019 a pechar:BudgetEntry ;
+pechar:bYYe019 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 587700 ;
     pechar:AmountEnRouteEUR 499100 ;
@@ -196,7 +216,8 @@ pechar:bYYe019 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe020 a pechar:BudgetEntry ;
+pechar:bYYe020 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 8900 ;
     pechar:AmountEnRouteEUR 8900 ;
@@ -205,7 +226,8 @@ pechar:bYYe020 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe021 a pechar:BudgetEntry ;
+pechar:bYYe021 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 124000 ;
     pechar:AmountEnRouteEUR 111700 ;
@@ -214,7 +236,8 @@ pechar:bYYe021 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2300_APaD ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe022 a pechar:BudgetEntry ;
+pechar:bYYe022 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 286000 ;
     pechar:AmountEnRouteEUR 244000 ;
@@ -223,7 +246,8 @@ pechar:bYYe022 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2300_APaD ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe023 a pechar:BudgetEntry ;
+pechar:bYYe023 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2309000 ;
     pechar:AmountEnRouteEUR 1416900 ;
@@ -232,7 +256,8 @@ pechar:bYYe023 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe024 a pechar:BudgetEntry ;
+pechar:bYYe024 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 249800 ;
     pechar:AmountEnRouteEUR 168100 ;
@@ -241,7 +266,8 @@ pechar:bYYe024 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe025 a pechar:BudgetEntry ;
+pechar:bYYe025 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1223300 ;
     pechar:AmountEnRouteEUR 995100 ;
@@ -250,7 +276,8 @@ pechar:bYYe025 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe026 a pechar:BudgetEntry ;
+pechar:bYYe026 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 893400 ;
     pechar:AmountEnRouteEUR 695200 ;
@@ -259,7 +286,8 @@ pechar:bYYe026 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe027 a pechar:BudgetEntry ;
+pechar:bYYe027 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 42100 ;
     pechar:AmountEnRouteEUR 42100 ;
@@ -268,7 +296,8 @@ pechar:bYYe027 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe028 a pechar:BudgetEntry ;
+pechar:bYYe028 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 51800 ;
     pechar:AmountEnRouteEUR 44800 ;
@@ -277,7 +306,8 @@ pechar:bYYe028 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2410_AIM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe029 a pechar:BudgetEntry ;
+pechar:bYYe029 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 203900 ;
     pechar:AmountEnRouteEUR 148500 ;
@@ -286,7 +316,8 @@ pechar:bYYe029 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe030 a pechar:BudgetEntry ;
+pechar:bYYe030 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 51200 ;
     pechar:AmountEnRouteEUR 43500 ;
@@ -295,7 +326,8 @@ pechar:bYYe030 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe031 a pechar:BudgetEntry ;
+pechar:bYYe031 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1406600 ;
     pechar:AmountEnRouteEUR 1406600 ;
@@ -304,7 +336,8 @@ pechar:bYYe031 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4210_FMaA ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe032 a pechar:BudgetEntry ;
+pechar:bYYe032 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3759800 ;
     pechar:AmountEnRouteEUR 2856700 ;
@@ -313,7 +346,8 @@ pechar:bYYe032 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe033 a pechar:BudgetEntry ;
+pechar:bYYe033 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 5215800 ;
     pechar:AmountEnRouteEUR 4128600 ;
@@ -322,7 +356,8 @@ pechar:bYYe033 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe034 a pechar:BudgetEntry ;
+pechar:bYYe034 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2816800 ;
     pechar:AmountEnRouteEUR 2153300 ;
@@ -331,7 +366,8 @@ pechar:bYYe034 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:201AirTrafficManagement .
 
-pechar:bYYe035 a pechar:BudgetEntry ;
+pechar:bYYe035 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 425400 ;
     pechar:AmountEnRouteEUR 349300 ;
@@ -340,7 +376,8 @@ pechar:bYYe035 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe036 a pechar:BudgetEntry ;
+pechar:bYYe036 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2670500 ;
     pechar:AmountEnRouteEUR 2112700 ;
@@ -349,7 +386,8 @@ pechar:bYYe036 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe037 a pechar:BudgetEntry ;
+pechar:bYYe037 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 274300 ;
     pechar:AmountEnRouteEUR 221700 ;
@@ -358,7 +396,8 @@ pechar:bYYe037 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe038 a pechar:BudgetEntry ;
+pechar:bYYe038 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 483000 ;
     pechar:AmountEnRouteEUR 241500 ;
@@ -367,7 +406,8 @@ pechar:bYYe038 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe039 a pechar:BudgetEntry ;
+pechar:bYYe039 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 93800 ;
     pechar:AmountEnRouteEUR 46900 ;
@@ -376,7 +416,8 @@ pechar:bYYe039 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe040 a pechar:BudgetEntry ;
+pechar:bYYe040 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 64000 ;
     pechar:AmountEnRouteEUR 64000 ;
@@ -385,7 +426,8 @@ pechar:bYYe040 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe041 a pechar:BudgetEntry ;
+pechar:bYYe041 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3653100 ;
     pechar:AmountEnRouteEUR 3120400 ;
@@ -394,7 +436,8 @@ pechar:bYYe041 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe042 a pechar:BudgetEntry ;
+pechar:bYYe042 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1964700 ;
     pechar:AmountEnRouteEUR 1610600 ;
@@ -403,7 +446,8 @@ pechar:bYYe042 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe043 a pechar:BudgetEntry ;
+pechar:bYYe043 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 205800 ;
     pechar:AmountEnRouteEUR 173200 ;
@@ -412,7 +456,8 @@ pechar:bYYe043 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe044 a pechar:BudgetEntry ;
+pechar:bYYe044 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 97900 ;
     pechar:AmountEnRouteEUR 83900 ;
@@ -421,7 +466,8 @@ pechar:bYYe044 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe045 a pechar:BudgetEntry ;
+pechar:bYYe045 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 55000 ;
     pechar:AmountEnRouteEUR 48400 ;
@@ -430,7 +476,8 @@ pechar:bYYe045 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe046 a pechar:BudgetEntry ;
+pechar:bYYe046 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 121600 ;
     pechar:AmountEnRouteEUR 103400 ;
@@ -439,7 +486,8 @@ pechar:bYYe046 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe047 a pechar:BudgetEntry ;
+pechar:bYYe047 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 364400 ;
     pechar:AmountEnRouteEUR 319200 ;
@@ -448,7 +496,8 @@ pechar:bYYe047 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe048 a pechar:BudgetEntry ;
+pechar:bYYe048 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 13500 ;
     pechar:AmountEnRouteEUR 13500 ;
@@ -457,7 +506,8 @@ pechar:bYYe048 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe049 a pechar:BudgetEntry ;
+pechar:bYYe049 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 8300 ;
     pechar:AmountEnRouteEUR 8300 ;
@@ -466,7 +516,8 @@ pechar:bYYe049 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe050 a pechar:BudgetEntry ;
+pechar:bYYe050 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 58100 ;
     pechar:AmountEnRouteEUR 53900 ;
@@ -475,7 +526,8 @@ pechar:bYYe050 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe051 a pechar:BudgetEntry ;
+pechar:bYYe051 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 16600 ;
     pechar:AmountEnRouteEUR 8300 ;
@@ -484,7 +536,8 @@ pechar:bYYe051 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:202Communication .
 
-pechar:bYYe052 a pechar:BudgetEntry ;
+pechar:bYYe052 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 297800 ;
     pechar:AmountEnRouteEUR 244200 ;
@@ -493,7 +546,8 @@ pechar:bYYe052 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe053 a pechar:BudgetEntry ;
+pechar:bYYe053 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1213200 ;
     pechar:AmountEnRouteEUR 822000 ;
@@ -502,7 +556,8 @@ pechar:bYYe053 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe054 a pechar:BudgetEntry ;
+pechar:bYYe054 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 85000 ;
     pechar:AmountEnRouteEUR 42500 ;
@@ -511,7 +566,8 @@ pechar:bYYe054 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe055 a pechar:BudgetEntry ;
+pechar:bYYe055 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 4600 ;
     pechar:AmountEnRouteEUR 2300 ;
@@ -520,7 +576,8 @@ pechar:bYYe055 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe056 a pechar:BudgetEntry ;
+pechar:bYYe056 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 4000 ;
     pechar:AmountEnRouteEUR 4000 ;
@@ -529,7 +586,8 @@ pechar:bYYe056 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe057 a pechar:BudgetEntry ;
+pechar:bYYe057 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3003000 ;
     pechar:AmountEnRouteEUR 2491000 ;
@@ -538,7 +596,8 @@ pechar:bYYe057 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe058 a pechar:BudgetEntry ;
+pechar:bYYe058 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 308200 ;
     pechar:AmountEnRouteEUR 259000 ;
@@ -547,7 +606,8 @@ pechar:bYYe058 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe059 a pechar:BudgetEntry ;
+pechar:bYYe059 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 11200 ;
     pechar:AmountEnRouteEUR 11200 ;
@@ -556,7 +616,8 @@ pechar:bYYe059 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2213_NaRCS ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe060 a pechar:BudgetEntry ;
+pechar:bYYe060 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 6600 ;
     pechar:AmountEnRouteEUR 6600 ;
@@ -565,7 +626,8 @@ pechar:bYYe060 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe061 a pechar:BudgetEntry ;
+pechar:bYYe061 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 41900 ;
     pechar:AmountEnRouteEUR 31400 ;
@@ -574,7 +636,8 @@ pechar:bYYe061 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe062 a pechar:BudgetEntry ;
+pechar:bYYe062 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 227500 ;
     pechar:AmountEnRouteEUR 176900 ;
@@ -583,7 +646,8 @@ pechar:bYYe062 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe063 a pechar:BudgetEntry ;
+pechar:bYYe063 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 124700 ;
     pechar:AmountEnRouteEUR 82800 ;
@@ -592,7 +656,8 @@ pechar:bYYe063 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:203Navigation .
 
-pechar:bYYe064 a pechar:BudgetEntry ;
+pechar:bYYe064 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 758000 ;
     pechar:AmountEnRouteEUR 590400 ;
@@ -601,7 +666,8 @@ pechar:bYYe064 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe065 a pechar:BudgetEntry ;
+pechar:bYYe065 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1790400 ;
     pechar:AmountEnRouteEUR 1726100 ;
@@ -610,7 +676,8 @@ pechar:bYYe065 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe066 a pechar:BudgetEntry ;
+pechar:bYYe066 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1003800 ;
     pechar:AmountEnRouteEUR 501900 ;
@@ -619,7 +686,8 @@ pechar:bYYe066 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe067 a pechar:BudgetEntry ;
+pechar:bYYe067 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 108600 ;
     pechar:AmountEnRouteEUR 54300 ;
@@ -628,7 +696,8 @@ pechar:bYYe067 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe068 a pechar:BudgetEntry ;
+pechar:bYYe068 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3996500 ;
     pechar:AmountEnRouteEUR 3449800 ;
@@ -637,7 +706,8 @@ pechar:bYYe068 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe069 a pechar:BudgetEntry ;
+pechar:bYYe069 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 835400 ;
     pechar:AmountEnRouteEUR 643800 ;
@@ -646,7 +716,8 @@ pechar:bYYe069 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe070 a pechar:BudgetEntry ;
+pechar:bYYe070 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 7600 ;
     pechar:AmountEnRouteEUR 0 ;
@@ -655,7 +726,8 @@ pechar:bYYe070 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe071 a pechar:BudgetEntry ;
+pechar:bYYe071 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 239700 ;
     pechar:AmountEnRouteEUR 179100 ;
@@ -664,7 +736,8 @@ pechar:bYYe071 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe072 a pechar:BudgetEntry ;
+pechar:bYYe072 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 528600 ;
     pechar:AmountEnRouteEUR 410200 ;
@@ -673,7 +746,8 @@ pechar:bYYe072 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe073 a pechar:BudgetEntry ;
+pechar:bYYe073 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 15400 ;
     pechar:AmountEnRouteEUR 4000 ;
@@ -682,7 +756,8 @@ pechar:bYYe073 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe074 a pechar:BudgetEntry ;
+pechar:bYYe074 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 16200 ;
     pechar:AmountEnRouteEUR 16200 ;
@@ -691,7 +766,8 @@ pechar:bYYe074 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe075 a pechar:BudgetEntry ;
+pechar:bYYe075 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 75300 ;
     pechar:AmountEnRouteEUR 75300 ;
@@ -700,7 +776,8 @@ pechar:bYYe075 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe076 a pechar:BudgetEntry ;
+pechar:bYYe076 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 463800 ;
     pechar:AmountEnRouteEUR 459000 ;
@@ -709,7 +786,8 @@ pechar:bYYe076 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe077 a pechar:BudgetEntry ;
+pechar:bYYe077 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 237100 ;
     pechar:AmountEnRouteEUR 237100 ;
@@ -718,7 +796,8 @@ pechar:bYYe077 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:204Surveillance .
 
-pechar:bYYe078 a pechar:BudgetEntry ;
+pechar:bYYe078 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 53500 ;
     pechar:AmountEnRouteEUR 53500 ;
@@ -727,7 +806,8 @@ pechar:bYYe078 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:205SearchAndRescue .
 
-pechar:bYYe079 a pechar:BudgetEntry ;
+pechar:bYYe079 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 7000 ;
     pechar:AmountEnRouteEUR 7000 ;
@@ -736,7 +816,8 @@ pechar:bYYe079 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:205SearchAndRescue .
 
-pechar:bYYe080 a pechar:BudgetEntry ;
+pechar:bYYe080 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 666400 ;
     pechar:AmountEnRouteEUR 666400 ;
@@ -745,7 +826,8 @@ pechar:bYYe080 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2112_RCC ;
     pechar:Service pechar:205SearchAndRescue .
 
-pechar:bYYe081 a pechar:BudgetEntry ;
+pechar:bYYe081 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2900 ;
     pechar:AmountEnRouteEUR 2900 ;
@@ -754,7 +836,8 @@ pechar:bYYe081 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:205SearchAndRescue .
 
-pechar:bYYe082 a pechar:BudgetEntry ;
+pechar:bYYe082 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 270400 ;
     pechar:AmountEnRouteEUR 178400 ;
@@ -763,7 +846,8 @@ pechar:bYYe082 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe083 a pechar:BudgetEntry ;
+pechar:bYYe083 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 534900 ;
     pechar:AmountEnRouteEUR 353000 ;
@@ -772,7 +856,8 @@ pechar:bYYe083 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe084 a pechar:BudgetEntry ;
+pechar:bYYe084 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 88600 ;
     pechar:AmountEnRouteEUR 58500 ;
@@ -781,7 +866,8 @@ pechar:bYYe084 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe085 a pechar:BudgetEntry ;
+pechar:bYYe085 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 6400 ;
     pechar:AmountEnRouteEUR 4200 ;
@@ -790,7 +876,8 @@ pechar:bYYe085 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe086 a pechar:BudgetEntry ;
+pechar:bYYe086 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 98100 ;
     pechar:AmountEnRouteEUR 64700 ;
@@ -799,7 +886,8 @@ pechar:bYYe086 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe087 a pechar:BudgetEntry ;
+pechar:bYYe087 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3011000 ;
     pechar:AmountEnRouteEUR 1987400 ;
@@ -808,7 +896,8 @@ pechar:bYYe087 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2410_AIM ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe088 a pechar:BudgetEntry ;
+pechar:bYYe088 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 281100 ;
     pechar:AmountEnRouteEUR 185500 ;
@@ -817,7 +906,8 @@ pechar:bYYe088 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2410_AIM ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe089 a pechar:BudgetEntry ;
+pechar:bYYe089 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 3300 ;
     pechar:AmountEnRouteEUR 2200 ;
@@ -826,7 +916,8 @@ pechar:bYYe089 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2410_AIM ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe090 a pechar:BudgetEntry ;
+pechar:bYYe090 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 15300 ;
     pechar:AmountEnRouteEUR 10100 ;
@@ -835,7 +926,8 @@ pechar:bYYe090 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe091 a pechar:BudgetEntry ;
+pechar:bYYe091 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 4000 ;
     pechar:AmountEnRouteEUR 2600 ;
@@ -844,7 +936,8 @@ pechar:bYYe091 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:206AeronauticalInformation .
 
-pechar:bYYe092 a pechar:BudgetEntry ;
+pechar:bYYe092 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 76100 ;
     pechar:AmountEnRouteEUR 69200 ;
@@ -853,7 +946,8 @@ pechar:bYYe092 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:207MeteorologicalServices .
 
-pechar:bYYe093 a pechar:BudgetEntry ;
+pechar:bYYe093 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 9400 ;
     pechar:AmountEnRouteEUR 9400 ;
@@ -862,7 +956,8 @@ pechar:bYYe093 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:207MeteorologicalServices .
 
-pechar:bYYe094 a pechar:BudgetEntry ;
+pechar:bYYe094 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 10900 ;
     pechar:AmountEnRouteEUR 10900 ;
@@ -871,7 +966,8 @@ pechar:bYYe094 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:208SupervisionCosts .
 
-pechar:bYYe095 a pechar:BudgetEntry ;
+pechar:bYYe095 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 179600 ;
     pechar:AmountEnRouteEUR 158300 ;
@@ -880,7 +976,8 @@ pechar:bYYe095 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:208SupervisionCosts .
 
-pechar:bYYe096 a pechar:BudgetEntry ;
+pechar:bYYe096 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 30000 ;
     pechar:AmountEnRouteEUR 30000 ;
@@ -889,7 +986,8 @@ pechar:bYYe096 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:208SupervisionCosts .
 
-pechar:bYYe097 a pechar:BudgetEntry ;
+pechar:bYYe097 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 559400 ;
     pechar:AmountEnRouteEUR 559400 ;
@@ -898,7 +996,8 @@ pechar:bYYe097 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:209OtherStateCosts .
 
-pechar:bYYe098 a pechar:BudgetEntry ;
+pechar:bYYe098 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 8313500 ;
     pechar:AmountEnRouteEUR 8313500 ;
@@ -907,7 +1006,8 @@ pechar:bYYe098 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4210_FMaA ;
     pechar:Service pechar:209OtherStateCosts .
 
-pechar:bYYe099 a pechar:BudgetEntry ;
+pechar:bYYe099 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 6969800 ;
     pechar:AmountEnRouteEUR 5988900 ;
@@ -916,7 +1016,8 @@ pechar:bYYe099 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe100 a pechar:BudgetEntry ;
+pechar:bYYe100 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2331600 ;
     pechar:AmountEnRouteEUR 2005200 ;
@@ -925,7 +1026,8 @@ pechar:bYYe100 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe101 a pechar:BudgetEntry ;
+pechar:bYYe101 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 4337000 ;
     pechar:AmountEnRouteEUR 3729800 ;
@@ -934,7 +1036,8 @@ pechar:bYYe101 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:1000_CS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe102 a pechar:BudgetEntry ;
+pechar:bYYe102 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2468900 ;
     pechar:AmountEnRouteEUR 2123200 ;
@@ -943,7 +1046,8 @@ pechar:bYYe102 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe103 a pechar:BudgetEntry ;
+pechar:bYYe103 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 200300 ;
     pechar:AmountEnRouteEUR 172400 ;
@@ -952,7 +1056,8 @@ pechar:bYYe103 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe104 a pechar:BudgetEntry ;
+pechar:bYYe104 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2300 ;
     pechar:AmountEnRouteEUR 2000 ;
@@ -961,7 +1066,8 @@ pechar:bYYe104 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2000_ANOM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe105 a pechar:BudgetEntry ;
+pechar:bYYe105 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 48000 ;
     pechar:AmountEnRouteEUR 41300 ;
@@ -970,7 +1076,8 @@ pechar:bYYe105 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2201_CIM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe106 a pechar:BudgetEntry ;
+pechar:bYYe106 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 209700 ;
     pechar:AmountEnRouteEUR 180300 ;
@@ -979,7 +1086,8 @@ pechar:bYYe106 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2211_SaRS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe107 a pechar:BudgetEntry ;
+pechar:bYYe107 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 177700 ;
     pechar:AmountEnRouteEUR 152900 ;
@@ -988,7 +1096,8 @@ pechar:bYYe107 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe108 a pechar:BudgetEntry ;
+pechar:bYYe108 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 178100 ;
     pechar:AmountEnRouteEUR 153200 ;
@@ -997,7 +1106,8 @@ pechar:bYYe108 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe109 a pechar:BudgetEntry ;
+pechar:bYYe109 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 29900 ;
     pechar:AmountEnRouteEUR 25700 ;
@@ -1006,7 +1116,8 @@ pechar:bYYe109 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2212_ATS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe110 a pechar:BudgetEntry ;
+pechar:bYYe110 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 344100 ;
     pechar:AmountEnRouteEUR 296000 ;
@@ -1015,7 +1126,8 @@ pechar:bYYe110 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2300_APaD ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe111 a pechar:BudgetEntry ;
+pechar:bYYe111 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 90200 ;
     pechar:AmountEnRouteEUR 77500 ;
@@ -1024,7 +1136,8 @@ pechar:bYYe111 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2300_APaD ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe112 a pechar:BudgetEntry ;
+pechar:bYYe112 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1783100 ;
     pechar:AmountEnRouteEUR 1533400 ;
@@ -1033,7 +1146,8 @@ pechar:bYYe112 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe113 a pechar:BudgetEntry ;
+pechar:bYYe113 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 52500 ;
     pechar:AmountEnRouteEUR 45000 ;
@@ -1042,7 +1156,8 @@ pechar:bYYe113 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2310_AMaS ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe114 a pechar:BudgetEntry ;
+pechar:bYYe114 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2281900 ;
     pechar:AmountEnRouteEUR 1914000 ;
@@ -1051,7 +1166,8 @@ pechar:bYYe114 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe115 a pechar:BudgetEntry ;
+pechar:bYYe115 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 163500 ;
     pechar:AmountEnRouteEUR 140900 ;
@@ -1060,7 +1176,8 @@ pechar:bYYe115 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:2320_PMO ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe116 a pechar:BudgetEntry ;
+pechar:bYYe116 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1699500 ;
     pechar:AmountEnRouteEUR 1461600 ;
@@ -1069,7 +1186,8 @@ pechar:bYYe116 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe117 a pechar:BudgetEntry ;
+pechar:bYYe117 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1468700 ;
     pechar:AmountEnRouteEUR 1263400 ;
@@ -1078,7 +1196,8 @@ pechar:bYYe117 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4110_HRM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe118 a pechar:BudgetEntry ;
+pechar:bYYe118 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1957500 ;
     pechar:AmountEnRouteEUR 1683400 ;
@@ -1087,7 +1206,8 @@ pechar:bYYe118 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4210_FMaA ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe119 a pechar:BudgetEntry ;
+pechar:bYYe119 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 658200 ;
     pechar:AmountEnRouteEUR 566000 ;
@@ -1096,7 +1216,8 @@ pechar:bYYe119 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4210_FMaA ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe120 a pechar:BudgetEntry ;
+pechar:bYYe120 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 2475400 ;
     pechar:AmountEnRouteEUR 2128900 ;
@@ -1105,7 +1226,8 @@ pechar:bYYe120 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe121 a pechar:BudgetEntry ;
+pechar:bYYe121 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1650000 ;
     pechar:AmountEnRouteEUR 1419100 ;
@@ -1114,7 +1236,8 @@ pechar:bYYe121 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe122 a pechar:BudgetEntry ;
+pechar:bYYe122 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 405700 ;
     pechar:AmountEnRouteEUR 348600 ;
@@ -1123,7 +1246,8 @@ pechar:bYYe122 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:4610_AaFM ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe123 a pechar:BudgetEntry ;
+pechar:bYYe123 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 5723200 ;
     pechar:AmountEnRouteEUR 4922000 ;
@@ -1132,7 +1256,8 @@ pechar:bYYe123 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:7000_ATA ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe124 a pechar:BudgetEntry ;
+pechar:bYYe124 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 1983900 ;
     pechar:AmountEnRouteEUR 1706100 ;
@@ -1141,7 +1266,8 @@ pechar:bYYe124 a pechar:BudgetEntry ;
     pechar:OrganizationalUnit pechar:7000_ATA ;
     pechar:Service pechar:299IndirectCosts .
 
-pechar:bYYe125 a pechar:BudgetEntry ;
+pechar:bYYe125 a gufo:IntrinsicAspect,
+        pechar:BudgetEntry ;
     pechar:AccountingPeriod "YYYY" ;
     pechar:AmountEUR 341500 ;
     pechar:AmountEnRouteEUR 293700 ;
@@ -1200,30 +1326,52 @@ ses:SurveillanceServices a schema:DefinedTerm ;
     schema:name "surveillance services" ;
     schema:termCode "SUR" .
 
-pechar:207MeteorologicalServices a schema:DefinedTerm ;
+pechar:EnRouteOps a gufo:Relator,
+        schema:DefinedTerm ;
+    schema:description "Output En Route Operations"@en ;
+    schema:name "En Route Operations" .
+
+pechar:207MeteorologicalServices a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Letecká meteorologická služba (MET)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "207 Meteorological services" ;
     skos:related ses:MeteorologicalServices ;
     pechar:hasTopContributor pechar:1000_CS .
 
-pechar:209OtherStateCosts a schema:DefinedTerm ;
+pechar:209OtherStateCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Náklady EUROCONTROL (EUC) – eviduje členský příspěvek EUROCONTROL a poplatek za fakturaci"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "209 Other State costs" ;
     pechar:hasTopContributor pechar:4210_FMaA .
 
-pechar:2120_AaACC a schema:DefinedTerm ;
+pechar:2112_RCC a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2112 Rescue Coordination Centre (RCC)" .
+
+pechar:2120_AaACC a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2120 Approach and Aerodrome Control Centre"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2120 Approach and Aerodrome Control Centre" ;
-    pechar:deliversTo pechar:2111_ACC .
+    pechar:deliversTo pechar:2111_ACC,
+        pechar:TerminalOps .
 
-pechar:2130_RAAS a schema:DefinedTerm ;
+pechar:2130_RAAS a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2130 Regional Airport ATM Services"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2130 Regional Airport ATM Services" ;
-    pechar:deliversTo pechar:2111_ACC .
+    pechar:deliversTo pechar:2111_ACC,
+        pechar:TerminalOps .
+
+pechar:TerminalOps a gufo:Relator,
+        schema:DefinedTerm ;
+    schema:description "Output Terminal Operations"@en ;
+    schema:name "Terminal Operations" .
 
 pecha: a schema:Legislation ;
     schema:datePublished "2025-01-01"^^xsd:date ;
@@ -1231,13 +1379,15 @@ pecha: a schema:Legislation ;
     schema:legislationIdentifier "32019R0317" ;
     schema:name "Commission Implementing Regulation (EU) 2019/317 of 11 February 2019 laying down a performance and charging scheme in the single European sky and repealing Implementing Regulations (EU) No 390/2013 and (EU) No 391/2013" .
 
-pechar:208SupervisionCosts a schema:DefinedTerm ;
+pechar:208SupervisionCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Náklady na státní dohled (SPV) – jedná se o novou položku, která eviduje náklady spojené s výkonem služeb za stát (plánování tratí, příprava map LIS, letové ověřování atd.)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "208 Supervision costs" ;
     pechar:hasTopContributor pechar:2310_AMaS .
 
-pechar:7000_ATA a schema:DefinedTerm ;
+pechar:7000_ATA a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 7000 ATM Training Academy"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "7000 ATM Training Academy" ;
@@ -1248,25 +1398,30 @@ pechar:CostsByNature a schema:DefinedTermSet ;
     schema:isPartOf pechar: ;
     schema:name "Cost by Nature" .
 
-pechar:205SearchAndRescue a schema:DefinedTerm ;
+pechar:205SearchAndRescue a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Pátrání a záchrana (SAR)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "205 Search and rescue" ;
     pechar:hasTopContributor pechar:2112_RCC .
 
-pechar:2112_RCC a schema:DefinedTerm ;
-    schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
-    schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2112 Rescue Coordination Centre (RCC)" .
-
-pechar:2300_APaD a schema:DefinedTerm ;
+pechar:2300_APaD a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2300 ATM/ANS Planning and Development"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2300 ATM/ANS Planning and Development" ;
     pechar:deliversTo pechar:1000_CS,
         pechar:2111_ACC .
 
-pechar:2000_ANOM a schema:DefinedTerm ;
+pechar:2410_AIM a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 2410 ATM Information Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2410 ATM Information Management" ;
+    pechar:deliversTo pechar:2111_ACC .
+
+pechar:2000_ANOM a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2000 Air Navigation Operations Management"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2000 Air Navigation Operations Management" ;
@@ -1274,7 +1429,8 @@ pechar:2000_ANOM a schema:DefinedTerm ;
         pechar:2111_ACC,
         pechar:2212_ATS .
 
-pechar:4210_FMaA a schema:DefinedTerm ;
+pechar:4210_FMaA a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 4210 Financial Management and Accounting"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "4210 Financial Management and Accounting" ;
@@ -1285,166 +1441,153 @@ ses:art_2 a schema:Legislation ;
     schema:isPartOf ses: ;
     schema:name "Definitions" .
 
-pechar:2310_AMaS a schema:DefinedTerm ;
+pechar:2213_NaRCS a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2213 Navigation and Radio Communication Services" ;
+    pechar:deliversTo pechar:2212_ATS .
+
+pechar:2310_AMaS a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2310 ATM/ANS Methodology and Standards"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2310 ATM/ANS Methodology and Standards" ;
     pechar:deliversTo pechar:1000_CS,
         pechar:2111_ACC .
 
-pechar:4110_HRM a schema:DefinedTerm ;
+pechar:4110_HRM a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 4110 Human Resources Management"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "4110 Human Resources Management" ;
     pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
-        pechar:2211_SaRS,
-        pechar:2212_ATS,
-        pechar:2213_NaRCS,
-        pechar:2410_AIM,
         pechar:4210_FMaA .
 
-pechar:206AeronauticalInformation a schema:DefinedTerm ;
+pechar:206AeronauticalInformation a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Letecká informační služba (AIS)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "206 Aeronautical information" ;
     skos:related ses:AeronauticalInformationService ;
     pechar:hasTopContributor pechar:2410_AIM .
 
-pechar:2201_CIM a schema:DefinedTerm ;
+pechar:2201_CIM a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2201 CNS/ATM Infrastructure Management"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2201 CNS/ATM Infrastructure Management" ;
-    pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
+    pechar:deliversTo pechar:2111_ACC,
         pechar:2211_SaRS,
-        pechar:2212_ATS,
-        pechar:2213_NaRCS .
+        pechar:2212_ATS .
 
-pechar:2320_PMO a schema:DefinedTerm ;
+pechar:2211_SaRS a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2211 Surveillance and Radar Services" ;
+    pechar:deliversTo pechar:2111_ACC .
+
+pechar:2320_PMO a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2320 Project Management Office (PMO)"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "2320 Project Management Office (PMO)" ;
     pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
-        pechar:2211_SaRS,
-        pechar:2212_ATS,
-        pechar:2410_AIM .
-
-pechar:2410_AIM a schema:DefinedTerm ;
-    schema:description "Organizational unit 2410 ATM Information Management"@en ;
-    schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2410 ATM Information Management" ;
-    pechar:deliversTo pechar:2111_ACC .
+        pechar:2111_ACC .
 
 pechar:CostsByService a schema:DefinedTermSet ;
     schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
     schema:isPartOf pechar: ;
     schema:name "Cost by Service" .
 
-pechar:203Navigation a schema:DefinedTerm ;
+pechar:203Navigation a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Navigace (NAV)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "203 Navigation" ;
     skos:related ses:NavigationServices ;
     pechar:hasTopContributor pechar:2213_NaRCS .
 
-pechar:2213_NaRCS a schema:DefinedTerm ;
-    schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
-    schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2213 Navigation and Radio Communication Services" ;
-    pechar:deliversTo pechar:2212_ATS .
-
-pechar:204Surveillance a schema:DefinedTerm ;
+pechar:204Surveillance a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Přehledová infrastruktura (SUR)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "204 Surveillance" ;
     skos:related ses:SurveillanceServices ;
     pechar:hasTopContributor pechar:2211_SaRS .
 
-pechar:2211_SaRS a schema:DefinedTerm ;
-    schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
-    schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2211 Surveillance and Radar Services" ;
-    pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
-        pechar:2212_ATS .
-
-pechar:4610_AaFM a schema:DefinedTerm ;
+pechar:4610_AaFM a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 4610 Asset and Facility Management"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
     schema:name "4610 Asset and Facility Management" ;
-    pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
-        pechar:2211_SaRS,
-        pechar:2212_ATS,
-        pechar:2213_NaRCS,
-        pechar:2410_AIM .
+    pechar:deliversTo pechar:2111_ACC .
 
-pechar:202Communication a schema:DefinedTerm ;
+pechar:202Communication a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Komunikace (COM) - náklady spojené s provozem a údržbou komunikační infrastruktury pro poskytovaní LNS a náklady související."@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "202 Communication" ;
-    skos:related ses:CommunicationServices ;
+    skos:related gufo:Relator,
+        ses:CommunicationServices ;
     pechar:hasTopContributor pechar:2212_ATS .
 
-pechar:2111_ACC a schema:DefinedTerm ;
+pechar:2111_ACC a gufo:RoleMixin,
+        schema:DefinedTerm ;
     schema:description "Organizational unit 2111 Area Control Centre (ACC)"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2111 Area Control Centre (ACC)" .
+    schema:name "2111 Area Control Centre (ACC)" ;
+    pechar:deliversTo pechar:EnRouteOps .
+
+pechar:2212_ATS a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits ;
+    schema:name "2212 Aeronautical Telecommunications Services" ;
+    pechar:deliversTo pechar:2111_ACC .
 
 pechar:OrgUnits a schema:DefinedTermSet ;
     schema:description "Organizational units of the European Commission"@en ;
     schema:inDefinedTermSet pechar: ;
     schema:name "Organizational Units" .
 
-pechar:2212_ATS a schema:DefinedTerm ;
-    schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
+pechar:1000_CS a gufo:RoleMixin,
+        schema:DefinedTerm ;
+    schema:description "Organizational unit 1000 Corporate Services"@en ;
     schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "2212 Aeronautical Telecommunications Services" ;
-    pechar:deliversTo pechar:1000_CS,
-        pechar:2111_ACC,
-        pechar:2112_RCC,
-        pechar:2211_SaRS,
-        pechar:2213_NaRCS,
-        pechar:2410_AIM .
+    schema:name "1000 Corporate Services" ;
+    pechar:deliversTo pechar:2111_ACC .
 
-pechar:299IndirectCosts a schema:DefinedTerm ;
+pechar:299IndirectCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Ostatní nerozlišené provozní náklady (OOC). FKSP (FXP)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "299 Indirect costs" ;
     pechar:hasTopContributor pechar:1000_CS .
 
-pechar:cDepreciationCosts a schema:DefinedTerm ;
+pechar:cDepreciationCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Odpisy"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature ;
     schema:name "c Depreciation Costs" .
 
-pechar:1000_CS a schema:DefinedTerm ;
-    schema:description "Organizational unit 1000 Corporate Services"@en ;
-    schema:inDefinedTermSet pechar:OrgUnits ;
-    schema:name "1000 Corporate Services" ;
-    pechar:deliversTo pechar:2111_ACC,
-        pechar:2112_RCC,
-        pechar:2211_SaRS,
-        pechar:2212_ATS,
-        pechar:2213_NaRCS,
-        pechar:2310_AMaS,
-        pechar:2410_AIM .
-
-pechar:201AirTrafficManagement a schema:DefinedTerm ;
+pechar:201AirTrafficManagement a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Poskytování letových provozních služeb (ATM) – náklady spojené s vlastním poskytováním řízení letového provozu"@cs ;
     schema:inDefinedTermSet pechar:CostsByService ;
     schema:name "201 Air Traffic Management" ;
     skos:related ses:AirTrafficManagement ;
     pechar:hasTopContributor pechar:2111_ACC .
 
-pechar:bOperatingCosts a schema:DefinedTerm ;
+pechar:bOperatingCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Provozní náklady"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature ;
     schema:name "b Operating Costs" .
 
-pechar:aStaffCosts a schema:DefinedTerm ;
+pechar:aStaffCosts a gufo:Relator,
+        schema:DefinedTerm ;
     schema:description "Náklady na zaměstnance"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature ;
     schema:name "a Staff Costs" .

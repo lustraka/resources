@@ -1,58 +1,41 @@
-# Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins
+# CoEDiT: Budget-to-Network Episode
 
+> 'CoEDiT' = **Co**mmitment-driven **E**nterprise **Di**gital **T**win
+>
 > 'pechar' = **Pe**rformance and **Cha**rging research **R**esources
 
-## 1. Epistemic Intent and Thematic Scope
+**A demonstrative instance of CoEDiT translating financial traces into ontologically grounded commitment structures.** For details refer to [**CoEDiT_PoEM.pdf**](CoEDiT_PoEM.pdf).
 
-This companion repository supports the proof-of-concept study titled  
-**"Toward Commitment-Driven Enterprise Digital Twins: A Socio-Technical Approach to Reflexive Modeling in the Age of Digitalization"**  
-by Lubomír Straka ([ORCID:0000-0003-0133-6780](https://orcid.org/0000-0003-0133-6780)).
+## Overview
+This repository contains data and modeling artifacts for CoEDiT—a commitment-driven enterprise digital twin. It reframes budget spreadsheets as commitment networks through a reflexive modeling loop grounded in ontology and semantics.
 
-It curates a set of modeling artifacts that exemplify how transactional data—originally designed for regulatory compliance—can be repurposed into semantic structures reflecting institutional commitments. The approach is grounded in dialectical modeling, combining conceptual abstraction with empirical traceability.
+## FAIR Artifacts
+| File | Description | Format | Standards |
+|------|-------------|--------|-----------|
+| [`Input_bYYe.csv`](Input_bYYe.csv) | Fictionalized budget entries | CSV | EU IR 2019/317 |
+| [`Input_bYYe_Vocabulary.ttl`](Input_bYYe_Vocabulary.ttl) | Controlled vocabulary for entity recognition | RDF/Turtle | SKOS, schema, fUFO |
+| [`Output_bYYe.ttl`](Output_bYYe.ttl) | An RDF knowledge graph representing inferred institutional commitments | RDF/Turtle | SKOS, schema, fUFO |
+| [`PoEM_bYYe_deliversTo.png`](PoEM_bYYe_deliversTo.png) | Inferred coordination network | PNG | n/a |
+| [`CoEDiT_Budget_Demo.ipynb`](CoEDiT_Budget_Demo.ipynb) | Python heuristics & visualization | Jupyter Notebook | pandas, rdflib |
 
-## 2. Methodological Maturity and Research Status
+## How to Reuse
 
-This repository presents [**CoEDiT_v0.7**](CoEDiT_v0.7.pdf), a pre-publication prototype released for departmental peer review.
-It embodies the current culmination of our reflexive modeling loop, advancing through:
+These artifacts can be reused for modeling exercises, institutional diagnostics, or FAIR-aligned semantic transformation of enterprise data:
+- Query `Output_bYYe.ttl` via SPARQL or validate using SHACL.
+- Adapt `CoEDiT_Budget_Demo.ipynb` to derive and visualize coordination patterns from custom data.
+- Reuse custom prefixes (e.g., `pecha:`, `ses:`) to semantically reference legal instruments via the [European Legislation Identifier (ELI)](https://eur-lex.europa.eu/eli-register/about.html), enabling machine-actionable alignment between institutional data and regulatory frameworks.
 
-- **Conceptual Modeling** — ontological framing of commitments  
-- **Data Mining** — transformation of regulatory traces into graph-based representations  
-- **Reflexive Sensemaking** — interpretive inference of institutional relations  
-- **Conceptual Refinement** — ontological consolidation using UFO and gUFO
+## Related Standards
 
-The versioning roadmap is outlined below:
+- [EU IR 2019/317](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019R0317): Performance and charging regulation
+- [SKOS](https://www.w3.org/TR/skos-reference/), [schema.org](https://schema.org/), [gUFO](https://purl.org/nemo/gufo)
 
-| Version     | Purpose                         | Status              |
-|-------------|----------------------------------|---------------------|
-| `v0.7`      | Departmental critical review     | _Done_           |
-| `v0.8`      | Journal submission (peer review) | _In Review_    |
-| `v0.9`      | Accepted version for publication | _To Be Decided_     |
-| `v1.0`      | Final archival version post-publication | _To Be Decided_     |
-
-All materials align with the FAIR principles (Findable, Accessible, Interoperable, Reusable) and are ethically bounded as practice-informed, not generalizable.
-
-## 3. Semantic Artifacts and Modeling Grammar
-
-The following core artifacts are included:
-
-Artifact | Description
--|-
-[`CedtPocBYYe.csv`](CedtPocBYYe.csv)| *Constructed fiscal data aligned with EU IR317, serving as the empirical anchor.*
-[`CedtPocVocab.ttl`](CedtPocVocab.ttl)| *Provisional RDF schema capturing early commitments and concepts.*
-[`CedtPocBYYe.ttl`](CedtPocBYYe.ttl)| *Commitment-based enterprise knowledge graph — the principal semantic artifact emerging from this proof-of-concept.*
-[`CedtPoc.ipynb`](CedtPoc.ipynb)| *Python notebook for semantic lifting, rule-based enrichment, and RDF graph construction.*
-
-## 4. Provenance, Accessibility, and Reusability
-
-- All resources are available under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- Ontologies conform to [W3C RDF 1.1 Turtle](https://www.w3.org/TR/turtle/).
-- Graph reasoning supports SPARQL 1.1 and OWL 2 DL.
-- Please cite as:
+## Reference
 
 ```bibtex
 @misc{straka2025pechar,
   author = {Straka, Lubomír},
-  title = {Reflexive Infrastructures for Commitment-Based Enterprise Digital Twins},
+  title = {Toward Commitment-Driven Enterprise Digital Twins: Budget-to-Network Episode},
   year = {2025},
   url = {https://lustraka.github.io/resources/pechar/}
 }
@@ -60,4 +43,4 @@ Artifact | Description
 
 ----
 
-Updated 2025-04-24
+All resources are available under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Updated 2025-07-01.

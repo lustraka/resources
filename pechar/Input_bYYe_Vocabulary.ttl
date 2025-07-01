@@ -1,6 +1,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
+@prefix gufo: <http://purl.org/nemo/gufo#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ses: <https://eur-lex.europa.eu/eli/reg/2024/2803/oj/> .
 @prefix pecha: <http://data.europa.eu/eli/reg_impl/2019/317#> .
@@ -97,58 +98,58 @@ pechar:CostsByService a schema:DefinedTermSet ;
     schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
     schema:isPartOf pechar: .
 
-pechar:201AirTrafficManagement a schema:DefinedTerm ;
+pechar:201AirTrafficManagement a schema:DefinedTerm, gufo:Relator ;
     schema:name "201 Air Traffic Management" ;
     schema:description "Poskytování letových provozních služeb (ATM) – náklady spojené s vlastním poskytováním řízení letového provozu"@cs ;
     skos:related ses:AirTrafficManagement ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:202Communication a schema:DefinedTerm ;
+pechar:202Communication a schema:DefinedTerm, gufo:Relator ;
     schema:name "202 Communication" ;
     schema:description "Komunikace (COM) - náklady spojené s provozem a údržbou komunikační infrastruktury pro poskytovaní LNS a náklady související."@cs ;
-    skos:related ses:CommunicationServices ;
+    skos:related ses:CommunicationServices, gufo:Relator ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:203Navigation a schema:DefinedTerm ;
+pechar:203Navigation a schema:DefinedTerm, gufo:Relator ;
     schema:name "203 Navigation" ;
     schema:description "Navigace (NAV)"@cs ;
     skos:related ses:NavigationServices ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:204Surveillance a schema:DefinedTerm ;
+pechar:204Surveillance a schema:DefinedTerm, gufo:Relator ;
     schema:name "204 Surveillance" ;
     schema:description "Přehledová infrastruktura (SUR)"@cs ;
     skos:related ses:SurveillanceServices ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:205SearchAndRescue a schema:DefinedTerm ;
+pechar:205SearchAndRescue a schema:DefinedTerm, gufo:Relator ;
     schema:name "205 Search and rescue" ;
     schema:description "Pátrání a záchrana (SAR)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:206AeronauticalInformation a schema:DefinedTerm ;
+pechar:206AeronauticalInformation a schema:DefinedTerm, gufo:Relator ;
     schema:name "206 Aeronautical information" ;
     schema:description "Letecká informační služba (AIS)"@cs ;
     skos:related ses:AeronauticalInformationService ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:207MeteorologicalServices a schema:DefinedTerm ;
+pechar:207MeteorologicalServices a schema:DefinedTerm, gufo:Relator ;
     schema:name "207 Meteorological services" ;
     schema:description "Letecká meteorologická služba (MET)"@cs ;
     skos:related ses:MeteorologicalServices ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:208SupervisionCosts a schema:DefinedTerm ;
+pechar:208SupervisionCosts a schema:DefinedTerm, gufo:Relator ;
     schema:name "208 Supervision costs" ;
     schema:description "Náklady na státní dohled (SPV) – jedná se o novou položku, která eviduje náklady spojené s výkonem služeb za stát (plánování tratí, příprava map LIS, letové ověřování atd.)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:209OtherStateCosts a schema:DefinedTerm ;
+pechar:209OtherStateCosts a schema:DefinedTerm, gufo:Relator ;
     schema:name "209 Other State costs" ;
     schema:description "Náklady EUROCONTROL (EUC) – eviduje členský příspěvek EUROCONTROL a poplatek za fakturaci"@cs ;
     schema:inDefinedTermSet pechar:CostsByService .
 
-pechar:299IndirectCosts a schema:DefinedTerm ;
+pechar:299IndirectCosts a schema:DefinedTerm, gufo:Relator ;
     schema:name "299 Indirect costs" ;
     schema:description "Ostatní nerozlišené provozní náklady (OOC). FKSP (FXP)"@cs ;
     schema:inDefinedTermSet pechar:CostsByService .
@@ -159,17 +160,17 @@ pechar:CostsByNature a schema:DefinedTermSet ;
     schema:description "ANS cost details required by a reporting table. See ANNEX BII of the Implementing Regulation." ;
     schema:isPartOf pechar: .
 
-pechar:aStaffCosts a schema:DefinedTerm ;
+pechar:aStaffCosts a schema:DefinedTerm, gufo:Relator ;
     schema:name "a Staff Costs" ;
     schema:description "Náklady na zaměstnance"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature .
 
-pechar:bOperatingCosts a schema:DefinedTerm ;
+pechar:bOperatingCosts a schema:DefinedTerm, gufo:Relator ;
     schema:name "b Operating Costs" ;
     schema:description "Provozní náklady"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature .
 
-pechar:cDepreciationCosts a schema:DefinedTerm ;
+pechar:cDepreciationCosts a schema:DefinedTerm,gufo:Relator ;
     schema:name "c Depreciation Costs" ;
     schema:description "Odpisy"@cs ;
     schema:inDefinedTermSet pechar:CostsByNature .
@@ -181,93 +182,100 @@ pechar:OrgUnits a schema:DefinedTermSet ;
     schema:inDefinedTermSet pechar: .
 
 
-        pechar:1000_CS a schema:DefinedTerm ;
-            schema:name "1000 Corporate Services" ;
-            schema:description "Organizational unit 1000 Corporate Services"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2000_ANOM a schema:DefinedTerm ;
-            schema:name "2000 Air Navigation Operations Management" ;
-            schema:description "Organizational unit 2000 Air Navigation Operations Management"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2111_ACC a schema:DefinedTerm ;
-            schema:name "2111 Area Control Centre (ACC)" ;
-            schema:description "Organizational unit 2111 Area Control Centre (ACC)"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2120_AaACC a schema:DefinedTerm ;
-            schema:name "2120 Approach and Aerodrome Control Centre" ;
-            schema:description "Organizational unit 2120 Approach and Aerodrome Control Centre"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2130_RAAS a schema:DefinedTerm ;
-            schema:name "2130 Regional Airport ATM Services" ;
-            schema:description "Organizational unit 2130 Regional Airport ATM Services"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2201_CIM a schema:DefinedTerm ;
-            schema:name "2201 CNS/ATM Infrastructure Management" ;
-            schema:description "Organizational unit 2201 CNS/ATM Infrastructure Management"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2211_SaRS a schema:DefinedTerm ;
-            schema:name "2211 Surveillance and Radar Services" ;
-            schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2212_ATS a schema:DefinedTerm ;
-            schema:name "2212 Aeronautical Telecommunications Services" ;
-            schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2300_APaD a schema:DefinedTerm ;
-            schema:name "2300 ATM/ANS Planning and Development" ;
-            schema:description "Organizational unit 2300 ATM/ANS Planning and Development"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2310_AMaS a schema:DefinedTerm ;
-            schema:name "2310 ATM/ANS Methodology and Standards" ;
-            schema:description "Organizational unit 2310 ATM/ANS Methodology and Standards"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2320_PMO a schema:DefinedTerm ;
-            schema:name "2320 Project Management Office (PMO)" ;
-            schema:description "Organizational unit 2320 Project Management Office (PMO)"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2410_AIM a schema:DefinedTerm ;
-            schema:name "2410 ATM Information Management" ;
-            schema:description "Organizational unit 2410 ATM Information Management"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:4110_HRM a schema:DefinedTerm ;
-            schema:name "4110 Human Resources Management" ;
-            schema:description "Organizational unit 4110 Human Resources Management"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:4210_FMaA a schema:DefinedTerm ;
-            schema:name "4210 Financial Management and Accounting" ;
-            schema:description "Organizational unit 4210 Financial Management and Accounting"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:4610_AaFM a schema:DefinedTerm ;
-            schema:name "4610 Asset and Facility Management" ;
-            schema:description "Organizational unit 4610 Asset and Facility Management"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2213_NaRCS a schema:DefinedTerm ;
-            schema:name "2213 Navigation and Radio Communication Services" ;
-            schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:2112_RCC a schema:DefinedTerm ;
-            schema:name "2112 Rescue Coordination Centre (RCC)" ;
-            schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
-        pechar:7000_ATA a schema:DefinedTerm ;
-            schema:name "7000 ATM Training Academy" ;
-            schema:description "Organizational unit 7000 ATM Training Academy"@en ;
-            schema:inDefinedTermSet pechar:OrgUnits.
-        
+pechar:1000_CS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "1000 Corporate Services" ;
+    schema:description "Organizational unit 1000 Corporate Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2000_ANOM a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2000 Air Navigation Operations Management" ;
+    schema:description "Organizational unit 2000 Air Navigation Operations Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2111_ACC a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2111 Area Control Centre (ACC)" ;
+    schema:description "Organizational unit 2111 Area Control Centre (ACC)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2120_AaACC a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2120 Approach and Aerodrome Control Centre" ;
+    schema:description "Organizational unit 2120 Approach and Aerodrome Control Centre"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2130_RAAS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2130 Regional Airport ATM Services" ;
+    schema:description "Organizational unit 2130 Regional Airport ATM Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2201_CIM a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2201 CNS/ATM Infrastructure Management" ;
+    schema:description "Organizational unit 2201 CNS/ATM Infrastructure Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2211_SaRS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2211 Surveillance and Radar Services" ;
+    schema:description "Organizational unit 2211 Surveillance and Radar Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2212_ATS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2212 Aeronautical Telecommunications Services" ;
+    schema:description "Organizational unit 2212 Aeronautical Telecommunications Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2300_APaD a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2300 ATM/ANS Planning and Development" ;
+    schema:description "Organizational unit 2300 ATM/ANS Planning and Development"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2310_AMaS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2310 ATM/ANS Methodology and Standards" ;
+    schema:description "Organizational unit 2310 ATM/ANS Methodology and Standards"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2320_PMO a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2320 Project Management Office (PMO)" ;
+    schema:description "Organizational unit 2320 Project Management Office (PMO)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2410_AIM a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2410 ATM Information Management" ;
+    schema:description "Organizational unit 2410 ATM Information Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:4110_HRM a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "4110 Human Resources Management" ;
+    schema:description "Organizational unit 4110 Human Resources Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:4210_FMaA a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "4210 Financial Management and Accounting" ;
+    schema:description "Organizational unit 4210 Financial Management and Accounting"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:4610_AaFM a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "4610 Asset and Facility Management" ;
+    schema:description "Organizational unit 4610 Asset and Facility Management"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2213_NaRCS a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2213 Navigation and Radio Communication Services" ;
+    schema:description "Organizational unit 2213 Navigation and Radio Communication Services"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:2112_RCC a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "2112 Rescue Coordination Centre (RCC)" ;
+    schema:description "Organizational unit 2112 Rescue Coordination Centre (RCC)"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:7000_ATA a schema:DefinedTerm, gufo:RoleMixin ;
+    schema:name "7000 ATM Training Academy" ;
+    schema:description "Organizational unit 7000 ATM Training Academy"@en ;
+    schema:inDefinedTermSet pechar:OrgUnits.
+
+pechar:EnRouteOps a schema:DefinedTerm, gufo:Relator ;
+    schema:name "En Route Operations" ;
+    schema:description "Output En Route Operations"@en .
+
+pechar:TerminalOps a schema:DefinedTerm, gufo:Relator ;
+    schema:name "Terminal Operations" ; 
+    schema:description "Output Terminal Operations"@en .
